@@ -9,7 +9,7 @@
 - 📫 Reach me via email: riadh_adrani@hotmail.fr 
 - 😄 Pronouns: Riyadh Adrani
 
-<div style="display: flex; flex-direction: row; justify-content: space-around; width: 100%">
+<div style="display: flex; flex-direction: row; justify-content: space-around;">
           <div style="display: flex; flex-direction: column; text-align: center">
                <img
                     src="https://cdn.worldvectorlogo.com/logos/kotlin-1.svg"
