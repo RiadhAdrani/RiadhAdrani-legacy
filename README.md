@@ -30,4 +30,4 @@ I enjoy graphic design and video editing in my leisure time and because of that 
 
 I also have a youtube channel where I post "Extended Neoclassical Music" coupled with animated background made with After Effects.
 
-<a href="https://www.youtube.com/c/DarkLordMusic/"><img src="https://yt3.ggpht.com/ytc/AAUvwnh6aTq5EAYJyMFgNZLlXOIN7BauzQdaSXqM4hDqVA=s900-c-k-c0x00ffffff-no-rj" alt="drawing" width="25"/>         My Youtube Channel</a>
+<a target="_blank"href="https://www.youtube.com/c/DarkLordMusic/"><img src="https://yt3.ggpht.com/ytc/AAUvwnh6aTq5EAYJyMFgNZLlXOIN7BauzQdaSXqM4hDqVA=s900-c-k-c0x00ffffff-no-rj" alt="drawing" width="25"/>         My Youtube Channel</a>
