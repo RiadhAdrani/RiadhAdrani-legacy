@@ -1,5 +1,3 @@
-import iconCircular from "../img/icon_circular.ico";
-import BorderRadius from "../abstracted-components/attributes/BorderRadius";
 import meIcon from "../img/me.svg";
 import skillsIcon from "../img/skills.svg";
 import projectsIcon from "../img/projects.svg";
@@ -73,19 +71,6 @@ const Home = () => {
           flexDirection: "column",
           justifyContent: "space-evenly",
           children: [
-               ImageView({
-                    image: iconCircular,
-                    width: "15%",
-                    minWidth: "100px",
-                    alignSelf: "center",
-                    marginVertical: "2%",
-                    border: Border.newAll("5px", "solid", "white"),
-                    borderRadius: BorderRadius.newAll("50%"),
-                    transitionDuration: "0.25s",
-                    hover: Selector.new({
-                         borderColor: Colors.RoyalBlue,
-                    }),
-               }),
                TextView({
                     text: "Hi, I'm Riadh. I am a Web Designer, an Android Developer and a hobbiyst Game Maker.",
                     color: "white",

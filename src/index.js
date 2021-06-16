@@ -3,11 +3,11 @@ import AppRoutes from "./App.Routes";
 import AppTree from "./App.Tree";
 
 const App = new RecursiveWebApp({
-    root: document.body,
-    app: AppTree,
-    route: AppRoutes,
-    base: "RiadhAdrani",
-    scopedStyle: true,
+  root: document.body,
+  app: AppTree,
+  route: AppRoutes,
+  base: "RiadhAdrani",
+  scopedStyle: true,
 });
 
 App.render();
@@ -17,7 +17,7 @@ App.render();
  * @returns
  */
 function getParams() {
-    return App.getParams();
+  return App.getParams();
 }
 
 /**
@@ -26,7 +26,7 @@ function getParams() {
  * @returns
  */
 function goTo(path) {
-    App.goTo(path);
+  App.goTo(path);
 }
 
 /**
@@ -36,7 +36,7 @@ function goTo(path) {
  * @returns {HTMLElement | Text} component
  */
 function renderRoute() {
-    return App.renderRoute();
+  return App.renderRoute();
 }
 
 /**
@@ -46,7 +46,7 @@ function renderRoute() {
  * @returns {import("@riadh-adrani/recursive-web/lib").StateArray} StateArray
  */
 function getState(key) {
-    return App.getState(key);
+  return App.getState(key);
 }
 
 /**
@@ -62,7 +62,7 @@ function getState(key) {
  * @returns {import("@riadh-adrani/recursive-web/lib").StateArray} StateArray
  */
 function setState(key, value, onInit, onRemoved) {
-    return App.setState(key, value, onInit, onRemoved);
+  return App.setState(key, value, onInit, onRemoved);
 }
 
 /**
@@ -72,7 +72,7 @@ function setState(key, value, onInit, onRemoved) {
  * @returns {import("@riadh-adrani/recursive-web/lib").StateArray} StateArray
  */
 function getCache(key) {
-    return App.getCache(key);
+  return App.getCache(key);
 }
 
 /**
@@ -92,7 +92,7 @@ function getCache(key) {
  * @returns {import("@riadh-adrani/recursive-web/lib").StateArray} StateArray
  */
 function setCache(key, value, onInit, onRemoved) {
-    return App.setCache(key, value, onInit, onRemoved);
+  return App.setCache(key, value, onInit, onRemoved);
 }
 
 /**
@@ -101,7 +101,7 @@ function setCache(key, value, onInit, onRemoved) {
  * @returns {HTMLElement} element
  */
 function getRef(key, defaultValue = document.createElement("div")) {
-    return App.getRef(key, defaultValue);
+  return App.getRef(key, defaultValue);
 }
 
 /**
@@ -131,7 +131,7 @@ function getRef(key, defaultValue = document.createElement("div")) {
  * @param {Function} callback
  */
 function updateOn(callback) {
-    App.updateOn(callback);
+  App.updateOn(callback);
 }
 
 /**
@@ -139,7 +139,7 @@ function updateOn(callback) {
  * @param {import("@riadh-adrani/recursive-web/lib").FreeStyleSheet} cssObject
  */
 function setStyle(cssObject) {
-    App.setStyle(cssObject);
+  App.setStyle(cssObject);
 }
 
 /**
@@ -148,7 +148,7 @@ function setStyle(cssObject) {
  * @returns
  */
 function Link(props) {
-    return App.Link(props);
+  return App.Link(props);
 }
 
 /**
@@ -156,7 +156,7 @@ function Link(props) {
  * @returns {string}
  */
 function getRoute() {
-    return App.getRoute();
+  return App.getRoute();
 }
 
 /**
@@ -165,7 +165,7 @@ function getRoute() {
  * @returns
  */
 function route(params) {
-    return params;
+  return params;
 }
 
 /**
@@ -175,21 +175,21 @@ function route(params) {
  * @param {() => Function} callback
  */
 function setEffect(key, dependencies, callback) {
-    App.setEffect(key, dependencies, callback);
+  App.setEffect(key, dependencies, callback);
 }
 
 export {
-    goTo,
-    setStyle,
-    setState,
-    updateOn,
-    getRef,
-    getState,
-    setCache,
-    getCache,
-    getParams,
-    getRoute,
-    renderRoute,
-    route,
-    setEffect,
+  goTo,
+  setStyle,
+  setState,
+  updateOn,
+  getRef,
+  getState,
+  setCache,
+  getCache,
+  getParams,
+  getRoute,
+  renderRoute,
+  route,
+  setEffect,
 };
