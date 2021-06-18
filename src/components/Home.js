@@ -91,7 +91,11 @@ const Home = () => {
                     justifyContent: "center",
                     padding: "2%",
                     children: [
-                         Section({ title: "About Me", icon: meIcon, page: "./about-me" }),
+                         Section({
+                              title: "About Me",
+                              icon: meIcon,
+                              page: "./about-me",
+                         }),
                          Section({ title: "My Skills", icon: skillsIcon, page: "./skills" }),
                          Section({ title: "Projects", icon: projectsIcon, page: "./projects" }),
                     ],

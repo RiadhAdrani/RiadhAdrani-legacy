@@ -109,7 +109,7 @@ const AboutMe = () => {
                ),
                Section(
                     "Freelancer",
-                    "Triweb",
+                    "Self-Employed",
                     "June 2020 - April 2021",
                     "Mostly in the Graphic Design Universe, I worked on many (small) projects for customers and friends.",
                     [
