@@ -29,6 +29,7 @@ const Section = ({ title = "new section", icon = img, page }) => {
           minWidth: "200px",
           justifyContent: "center",
           flexDirection: "column",
+          borderRadius: "10px",
           margin: "1%",
           backgroundColor: Colors.newFromRGBA(30, 30, 30, 0.75),
           border: Border.newAll("2px", "solid", "white"),
@@ -77,13 +78,13 @@ const Home = () => {
                     padding: "2%",
                     size: "2.5em",
                     textAlign: "center",
+                    paddingHorizontal: "5%",
                     textShadow: TextShadow.new({
                          hOffset: "1px",
                          vOffset: "1px",
                          blur: "5px",
                          color: Colors.Grey,
                     }),
-                    paddingHorizontal: "5%",
                }),
                Container({
                     flexWrap: "wrap",

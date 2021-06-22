@@ -16,6 +16,8 @@ import c from "./c.svg";
 import cpp from "./cpp.svg";
 import php from "./php.svg";
 import youtube from "./youtube.svg";
+import colorNoter from "./color-noter.png";
+import werewolves from "./ww.jpg";
 
 class Icons {
      static AfterEffects = afterEffects;
@@ -36,6 +38,8 @@ class Icons {
      static Cpp = cpp;
      static Php = php;
      static YouTube = youtube;
+     static ColorNoter = colorNoter;
+     static Werewolves = werewolves;
 }
 
 export default Icons;

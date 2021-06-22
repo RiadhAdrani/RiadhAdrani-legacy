@@ -36,7 +36,15 @@ const Page = (content) => {
 
 const Linker = ({ to, children }) => (
      <Link
-          style={{ all: "unset", display: "flex", flexDirection: "column", padding: "0%" }}
+          style={{
+               all: "unset",
+               display: "flex",
+               alignSelf: "center",
+               marginTop: "2%",
+               marginBottom: "2%",
+               flexDirection: "column",
+               width: "fit-content",
+          }}
           to={to}
      >
           {children}
@@ -72,8 +80,9 @@ const App = () => {
                          to: "/",
                          children: ImageView({
                               image: iconCircular,
-                              width: "15%",
-                              minWidth: "100px",
+                              minWidth: "70px",
+                              maxWidth: "200px",
+                              width: "100%",
                               alignSelf: "center",
                               cursor: "pointer",
                               marginVertical: "2%",
@@ -129,8 +138,10 @@ const App = () => {
                          text: "Powered by abstracted-components",
                          alignSelf: "center",
                          fontStyle: "italic",
-                         padding: "2%",
+                         padding: "15px",
+                         margin: "1%",
                          cursor: "pointer",
+                         borderRadius: "15px",
                          transitionDuration: "0.5s",
                          onClick: () => {
                               window.open(
@@ -139,7 +150,8 @@ const App = () => {
                               );
                          },
                          hover: Selector.new({
-                              textColor: Colors.RoyalBlue,
+                              textColor: Colors.Black,
+                              backgroundColor: "white",
                          }),
                     }),
                ])}
