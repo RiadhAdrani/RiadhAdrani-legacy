@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.js": "/RiadhAdrani/static/js/main.a32a95c1.chunk.js",
-    "main.js.map": "/RiadhAdrani/static/js/main.a32a95c1.chunk.js.map",
-    "runtime-main.js": "/RiadhAdrani/static/js/runtime-main.c4355bbd.js",
-    "runtime-main.js.map": "/RiadhAdrani/static/js/runtime-main.c4355bbd.js.map",
+    "main.css": "/RiadhAdrani/static/css/main.788c51d0.chunk.css",
+    "main.js": "/RiadhAdrani/static/js/main.0ad71810.chunk.js",
+    "main.js.map": "/RiadhAdrani/static/js/main.0ad71810.chunk.js.map",
+    "runtime-main.js": "/RiadhAdrani/static/js/runtime-main.60d02b79.js",
+    "runtime-main.js.map": "/RiadhAdrani/static/js/runtime-main.60d02b79.js.map",
     "static/js/2.c6af8d8f.chunk.js": "/RiadhAdrani/static/js/2.c6af8d8f.chunk.js",
     "static/js/2.c6af8d8f.chunk.js.map": "/RiadhAdrani/static/js/2.c6af8d8f.chunk.js.map",
-    "static/js/3.8446ad2f.chunk.js": "/RiadhAdrani/static/js/3.8446ad2f.chunk.js",
-    "static/js/3.8446ad2f.chunk.js.map": "/RiadhAdrani/static/js/3.8446ad2f.chunk.js.map",
+    "static/js/3.ca3b7942.chunk.js": "/RiadhAdrani/static/js/3.ca3b7942.chunk.js",
+    "static/js/3.ca3b7942.chunk.js.map": "/RiadhAdrani/static/js/3.ca3b7942.chunk.js.map",
     "index.html": "/RiadhAdrani/index.html",
+    "static/css/main.788c51d0.chunk.css.map": "/RiadhAdrani/static/css/main.788c51d0.chunk.css.map",
     "static/js/2.c6af8d8f.chunk.js.LICENSE.txt": "/RiadhAdrani/static/js/2.c6af8d8f.chunk.js.LICENSE.txt",
     "static/media/_500px.c0dcc530.svg": "/RiadhAdrani/static/media/_500px.c0dcc530.svg",
     "static/media/accessible-icon.811b2d34.svg": "/RiadhAdrani/static/media/accessible-icon.811b2d34.svg",
@@ -324,7 +326,7 @@
     "static/media/copyright.0d5894a4.svg": "/RiadhAdrani/static/media/copyright.0d5894a4.svg",
     "static/media/cotton-bureau.4ffdf0fe.svg": "/RiadhAdrani/static/media/cotton-bureau.4ffdf0fe.svg",
     "static/media/couch.e62d678e.svg": "/RiadhAdrani/static/media/couch.e62d678e.svg",
-    "static/media/cover1.e253e4fd.jpg": "/RiadhAdrani/static/media/cover1.e253e4fd.jpg",
+    "static/media/App.css": "/RiadhAdrani/static/media/cover1.e253e4fd.jpg",
     "static/media/cpanel.036c6a29.svg": "/RiadhAdrani/static/media/cpanel.036c6a29.svg",
     "static/media/cpp.30cd71dc.svg": "/RiadhAdrani/static/media/cpp.30cd71dc.svg",
     "static/media/creative-commons-by.5f7286f4.svg": "/RiadhAdrani/static/media/creative-commons-by.5f7286f4.svg",
@@ -844,7 +846,6 @@
     "static/media/mastodon.29fbb153.svg": "/RiadhAdrani/static/media/mastodon.29fbb153.svg",
     "static/media/maxcdn.2e154f44.svg": "/RiadhAdrani/static/media/maxcdn.2e154f44.svg",
     "static/media/mdb.4f9d2533.svg": "/RiadhAdrani/static/media/mdb.4f9d2533.svg",
-    "static/media/me.8adea5b5.svg": "/RiadhAdrani/static/media/me.8adea5b5.svg",
     "static/media/medal.cd1c8ffb.svg": "/RiadhAdrani/static/media/medal.cd1c8ffb.svg",
     "static/media/medapps.94eb0353.svg": "/RiadhAdrani/static/media/medapps.94eb0353.svg",
     "static/media/medium-m.18e00ccc.svg": "/RiadhAdrani/static/media/medium-m.18e00ccc.svg",
@@ -1019,7 +1020,6 @@
     "static/media/procedures.1cc7f80d.svg": "/RiadhAdrani/static/media/procedures.1cc7f80d.svg",
     "static/media/product-hunt.c266fc4e.svg": "/RiadhAdrani/static/media/product-hunt.c266fc4e.svg",
     "static/media/project-diagram.2a1c5bed.svg": "/RiadhAdrani/static/media/project-diagram.2a1c5bed.svg",
-    "static/media/projects.6adec351.svg": "/RiadhAdrani/static/media/projects.6adec351.svg",
     "static/media/pump-medical.e2835c8c.svg": "/RiadhAdrani/static/media/pump-medical.e2835c8c.svg",
     "static/media/pump-soap.eb19f800.svg": "/RiadhAdrani/static/media/pump-soap.eb19f800.svg",
     "static/media/pushed.59a60003.svg": "/RiadhAdrani/static/media/pushed.59a60003.svg",
@@ -1147,7 +1147,6 @@
     "static/media/sketch.cfbc1972.svg": "/RiadhAdrani/static/media/sketch.cfbc1972.svg",
     "static/media/skiing-nordic.b3c63f2b.svg": "/RiadhAdrani/static/media/skiing-nordic.b3c63f2b.svg",
     "static/media/skiing.2740c9ba.svg": "/RiadhAdrani/static/media/skiing.2740c9ba.svg",
-    "static/media/skills.85b77085.svg": "/RiadhAdrani/static/media/skills.85b77085.svg",
     "static/media/skull-crossbones.f2689976.svg": "/RiadhAdrani/static/media/skull-crossbones.f2689976.svg",
     "static/media/skull.41783c2b.svg": "/RiadhAdrani/static/media/skull.41783c2b.svg",
     "static/media/skyatlas.518cfaed.svg": "/RiadhAdrani/static/media/skyatlas.518cfaed.svg",
@@ -1497,8 +1496,9 @@
     "static/media/zhihu.caace09a.svg": "/RiadhAdrani/static/media/zhihu.caace09a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4355bbd.js",
+    "static/js/runtime-main.60d02b79.js",
     "static/js/2.c6af8d8f.chunk.js",
-    "static/js/main.a32a95c1.chunk.js"
+    "static/css/main.788c51d0.chunk.css",
+    "static/js/main.0ad71810.chunk.js"
   ]
 }
