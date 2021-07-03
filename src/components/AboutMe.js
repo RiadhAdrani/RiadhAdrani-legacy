@@ -4,12 +4,11 @@ import FontFamily from "../abstracted-components/attributes/FontFamily";
 import Container from "../abstracted-components/components/Container";
 import TextView from "../abstracted-components/components/TextView";
 
-const text = `Hello! Thank you for visiting my protfolio! I am Riadh Adrani (Pronouned Riyath Adrani), I am 23 years old, I live in the Ariana province in Tunisia. I am currently a Web Designer in Triweb: my job consists of making graphical charter and integrate them using a private CMS made by the company, called Webtool. I enjoy learning new stuff, in face I learned Graphic Design, Web dev, Android dev and I am now learning Game dev without the need to pay any penny! Of course thanks to the respective huge communities which offers a large variety of content and learning material. Check out my projects for more details, and don't forget to have a look at my GitHub account. Thank you again!`;
+const text = `Hello! Thank you for visiting my portfolio! I am Riadh Adrani (Pronounced Riyath Adrani), I am 23 years old, I live in the Ariana province in Tunisia. I am currently a Web Designer in Triweb: my job consists of making graphical charter and integrate them using a private CMS made by the company, called Webtool. I enjoy learning new stuff, in face I learned Graphic Design, Web dev, Android dev and I am now learning Game dev without the need to pay any penny! Of course thanks to the respective huge communities which offers a large variety of content and learning material. Check out my projects for more details, and don't forget to have a look at my GitHub account. Thank you again!`;
 
 const AboutMe = () => {
      return Container({
           flexDirection: "column",
-          justifyContent: "space-evenly",
           children: [
                TextView({
                     text: text,

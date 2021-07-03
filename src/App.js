@@ -1,6 +1,4 @@
-import BackgroundSize from "./abstracted-components/attributes/BackgroundSize";
 import Container from "./abstracted-components/components/Container";
-import img from "./img/cover1.jpg";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
@@ -10,13 +8,14 @@ import Colors from "./abstracted-components/attributes/Colors";
 import iconCircular from "./img/icon_circular.ico";
 import ImageView from "./abstracted-components/components/ImageView";
 import Border from "./abstracted-components/attributes/Border";
-import BackgroundAttachment from "./abstracted-components/attributes/BackgroundAttachment";
-import BackgroundRepeat from "./abstracted-components/attributes/BackgroundRepeat";
 import AboutMe from "./components/AboutMe";
 import FontAwesomeIcons from "./abstracted-components/icons/FontAwesomeIcons";
 import JustifyContent from "./abstracted-components/attributes/JustifyContent";
 import Filter from "./abstracted-components/attributes/Filter";
 import Projects from "./components/Projects";
+import AnimatedBackgrounds from "./components/AnimatedBackgrounds";
+import FontFamily from "./abstracted-components/attributes/FontFamily";
+import "./App.css";
 
 const Page = (content) => {
      return Container({
@@ -24,10 +23,8 @@ const Page = (content) => {
           minHeight: "100vh",
           textColor: "white",
           id: "app",
-          backgroundImage: `url(${img})`,
-          backgroundSize: BackgroundSize.Cover,
-          backgroundAttachment: BackgroundAttachment.Fixed,
-          backgroundRepeat: BackgroundRepeat.NoRepeat,
+          className: "global-style",
+          fontFamily: FontFamily.Helvetica,
           flexDirection: "column",
           justifyContent: "space-evenly",
           children: [content],
@@ -133,6 +130,9 @@ const App = () => {
                          <Route exact path="/projects">
                               {Projects()}
                          </Route>
+                         <Route exact path="/animatedBackgrounds">
+                              {AnimatedBackgrounds()}
+                         </Route>
                     </Switch>,
                     TextView({
                          text: "Powered by abstracted-components",
@@ -142,7 +142,9 @@ const App = () => {
                          margin: "1%",
                          cursor: "pointer",
                          borderRadius: "15px",
+                         fontFamily: FontFamily.Helvetica,
                          transitionDuration: "0.5s",
+                         debugLogCSS: "true",
                          onClick: () => {
                               window.open(
                                    "https://github.com/RiadhAdrani/abstracted-components",

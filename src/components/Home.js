@@ -1,6 +1,3 @@
-import meIcon from "../img/me.svg";
-import skillsIcon from "../img/skills.svg";
-import projectsIcon from "../img/projects.svg";
 import TextShadow from "../abstracted-components/attributes/TextShadow";
 import Selector from "../abstracted-components/attributes/Selector";
 import Border from "../abstracted-components/attributes/Border";
@@ -9,24 +6,33 @@ import Container from "../abstracted-components/components/Container";
 import TextView from "../abstracted-components/components/TextView";
 import ImageView from "../abstracted-components/components/ImageView";
 import TextDecoration from "../abstracted-components/attributes/TextDecoration";
+import FontAwesomeIcons from "../abstracted-components/icons/FontAwesomeIcons";
+import Filter from "../abstracted-components/attributes/Filter";
 import img from "../img/cover1.jpg";
 import { Link } from "react-router-dom";
+import FontFamily from "../abstracted-components/attributes/FontFamily";
 
 const Linker = ({ to, children }) => (
      <Link
-          style={{ all: "unset", display: "flex", flexDirection: "column", padding: "4%" }}
+          style={{
+               textDecoration: "none",
+               display: "flex",
+               flexDirection: "column",
+               padding: "4%",
+          }}
           to={to}
      >
           {children}
      </Link>
 );
 
-const Section = ({ title = "new section", icon = img, page }) => {
+const Section = ({ title = "new section", icon = img, page, invert = false }) => {
      return Container({
           textColor: "inherit",
           textAlign: "center",
           flexGrow: 1,
           minWidth: "200px",
+          maxWidth: "25%",
           justifyContent: "center",
           flexDirection: "column",
           borderRadius: "10px",
@@ -48,6 +54,7 @@ const Section = ({ title = "new section", icon = img, page }) => {
                               height: "50px",
                               width: "50px",
                               cursor: "inherit",
+                              filter: Filter.newInvert(invert ? 100 : 0),
                               alignSelf: "center",
                               margin: "1%",
                               marginBottom: "4%",
@@ -77,6 +84,7 @@ const Home = () => {
                     color: "white",
                     padding: "2%",
                     size: "2.5em",
+                    fontFamily: FontFamily.Tahoma,
                     textAlign: "center",
                     paddingHorizontal: "5%",
                     textShadow: TextShadow.new({
@@ -94,11 +102,28 @@ const Home = () => {
                     children: [
                          Section({
                               title: "About Me",
-                              icon: meIcon,
+                              icon: FontAwesomeIcons.History,
                               page: "./about-me",
+                              invert: true,
                          }),
-                         Section({ title: "My Skills", icon: skillsIcon, page: "./skills" }),
-                         Section({ title: "Projects", icon: projectsIcon, page: "./projects" }),
+                         Section({
+                              title: "My Skills",
+                              icon: FontAwesomeIcons.CheckCircle,
+                              page: "./skills",
+                              invert: true,
+                         }),
+                         Section({
+                              title: "Projects",
+                              icon: FontAwesomeIcons.ProjectDiagram,
+                              page: "./projects",
+                              invert: true,
+                         }),
+                         Section({
+                              title: "Animated Backgrounds",
+                              icon: FontAwesomeIcons.PhotoVideo,
+                              page: "./animatedBackgrounds",
+                              invert: true,
+                         }),
                     ],
                }),
           ],
