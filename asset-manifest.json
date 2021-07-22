@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RiadhAdrani/static/css/main.788c51d0.chunk.css",
-    "main.js": "/RiadhAdrani/static/js/main.0ad71810.chunk.js",
-    "main.js.map": "/RiadhAdrani/static/js/main.0ad71810.chunk.js.map",
+    "main.js": "/RiadhAdrani/static/js/main.ecd410be.chunk.js",
+    "main.js.map": "/RiadhAdrani/static/js/main.ecd410be.chunk.js.map",
     "runtime-main.js": "/RiadhAdrani/static/js/runtime-main.60d02b79.js",
     "runtime-main.js.map": "/RiadhAdrani/static/js/runtime-main.60d02b79.js.map",
     "static/js/2.c6af8d8f.chunk.js": "/RiadhAdrani/static/js/2.c6af8d8f.chunk.js",
@@ -1435,6 +1435,7 @@
     "static/media/volume-up.67561d62.svg": "/RiadhAdrani/static/media/volume-up.67561d62.svg",
     "static/media/vote-yea.ee54a0d1.svg": "/RiadhAdrani/static/media/vote-yea.ee54a0d1.svg",
     "static/media/vr-cardboard.3ea493ee.svg": "/RiadhAdrani/static/media/vr-cardboard.3ea493ee.svg",
+    "static/media/vue-js.9f537ef8.svg": "/RiadhAdrani/static/media/vue-js.9f537ef8.svg",
     "static/media/vuejs.5b0c9eae.svg": "/RiadhAdrani/static/media/vuejs.5b0c9eae.svg",
     "static/media/walking.555d7e6a.svg": "/RiadhAdrani/static/media/walking.555d7e6a.svg",
     "static/media/wallet.7e725a4f.svg": "/RiadhAdrani/static/media/wallet.7e725a4f.svg",
@@ -1499,6 +1500,6 @@
     "static/js/runtime-main.60d02b79.js",
     "static/js/2.c6af8d8f.chunk.js",
     "static/css/main.788c51d0.chunk.css",
-    "static/js/main.0ad71810.chunk.js"
+    "static/js/main.ecd410be.chunk.js"
   ]
 }
