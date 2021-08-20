@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RiadhAdrani/static/css/main.788c51d0.chunk.css",
-    "main.js": "/RiadhAdrani/static/js/main.ecd410be.chunk.js",
-    "main.js.map": "/RiadhAdrani/static/js/main.ecd410be.chunk.js.map",
+    "main.js": "/RiadhAdrani/static/js/main.8c0376fe.chunk.js",
+    "main.js.map": "/RiadhAdrani/static/js/main.8c0376fe.chunk.js.map",
     "runtime-main.js": "/RiadhAdrani/static/js/runtime-main.60d02b79.js",
     "runtime-main.js.map": "/RiadhAdrani/static/js/runtime-main.60d02b79.js.map",
     "static/js/2.c6af8d8f.chunk.js": "/RiadhAdrani/static/js/2.c6af8d8f.chunk.js",
@@ -432,6 +432,7 @@
     "static/media/edit.bbd3758e.svg": "/RiadhAdrani/static/media/edit.bbd3758e.svg",
     "static/media/egg.954871b5.svg": "/RiadhAdrani/static/media/egg.954871b5.svg",
     "static/media/eject.c5f972e9.svg": "/RiadhAdrani/static/media/eject.c5f972e9.svg",
+    "static/media/electron.9c2059f1.ico": "/RiadhAdrani/static/media/electron.9c2059f1.ico",
     "static/media/elementor.3f6166a9.svg": "/RiadhAdrani/static/media/elementor.3f6166a9.svg",
     "static/media/ellipsis-h.0512b9b2.svg": "/RiadhAdrani/static/media/ellipsis-h.0512b9b2.svg",
     "static/media/ellipsis-v.0faa73ca.svg": "/RiadhAdrani/static/media/ellipsis-v.0faa73ca.svg",
@@ -1500,6 +1501,6 @@
     "static/js/runtime-main.60d02b79.js",
     "static/js/2.c6af8d8f.chunk.js",
     "static/css/main.788c51d0.chunk.css",
-    "static/js/main.ecd410be.chunk.js"
+    "static/js/main.8c0376fe.chunk.js"
   ]
 }
