@@ -102,12 +102,18 @@ const Projects = () => {
                          "Dark Lord is a music oriented youtube channel. I created the channel in the 16th of September 2016, and despite having a rough start in the first year, the channel grew through the years to reach more than 20.000 subscribers and more than 15.000.000 views, which is really incredible. Its main purpose is to provide well-crafted extended version of Epic Trailer Music. Our Extended Music is not a loop, we try to remix different parts to create a longer and musically accepted listening experience.  ",
                }),
                Project({
-                    title: "Color Noter - Android App",
-                    link: "https://github.com/RiadhAdrani/color_note_plus",
+                    title: "Color Noter - Android & Desktop App",
+                    link: "https://github.com/RiadhAdrani/color-noter-desktop",
                     image: Icons.ColorNoter,
-                    technologies: [Icon(Icons.AndroidStudio), Icon(Icons.Java)],
+                    technologies: [
+                         Icon(Icons.AndroidStudio),
+                         Icon(Icons.Java),
+                         Icon(Icons.Electron),
+                         Icon(Icons.ReactJs),
+                         Icon(Icons.JavaScript),
+                    ],
                     description:
-                         "Color Noter is a note-note taking mobile App for Android OS allowing its user to write and save notes on the fly. The App offers two types of notes : Text Note and Check List Note. Cloud saving is a feature, however, Online storage is just 1GB provided by Google's Firebase.",
+                         "Color Noter is a note-note taking mobile App for Android OS and Desktop (Max OS and Windows) allowing its user to write and save notes on the fly. The App offers two types of notes : Text Note and Check List Note. Cloud saving is a feature, however, Online storage is just 1GB provided by Google's Firebase. Desktop version was made with Electron Js which relies on web technologies: React was used to create components and build a solid UI",
                }),
                Project({
                     title: "Werewolf of the Millers Hollow : Narrator Guide - Android App",

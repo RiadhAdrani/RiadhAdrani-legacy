@@ -128,9 +128,10 @@ const Skills = () => {
                     "Web Development",
                     "This portfolio website is built using a package that is currently under development by none other than me.",
                     [
+                         technology("JavaScript", Icons.JavaScript),
                          technology("React Js", Icons.ReactJs),
                          technology("Flutter", Icons.Flutter),
-                         technology("JavaScript", Icons.JavaScript),
+                         technology("Vue Js", Icons.Vue),
                     ]
                ),
                Skill(
@@ -143,6 +144,9 @@ const Skills = () => {
                          technology("Premiere Pro", Icons.PremierePro),
                     ]
                ),
+               Skill("Desktop App", "Creating some useful apps for the PC", [
+                    technology("Electron Js", Icons.Electron),
+               ]),
                Skill(
                     "Game Design",
                     "A hobbyist game developer. I make small games that I share with family members and friends, not so serious!",

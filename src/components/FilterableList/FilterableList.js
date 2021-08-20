@@ -3,6 +3,7 @@ import FontAwesomeIcons from "../../abstracted-components/icons/FontAwesomeIcons
 import "./FilterableListStyle.css";
 
 class FilterableList extends react.Component {
+     
      rawList = [
           {
                video: "https://www.youtube.com/embed/4ZmiGGTQ3Cg",

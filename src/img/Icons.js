@@ -18,6 +18,8 @@ import php from "./php.svg";
 import youtube from "./youtube.svg";
 import colorNoter from "./color-noter.png";
 import werewolves from "./ww.jpg";
+import vue from "./vue-js.svg";
+import electron from "./electron.ico";
 
 class Icons {
      static AfterEffects = afterEffects;
@@ -40,6 +42,8 @@ class Icons {
      static YouTube = youtube;
      static ColorNoter = colorNoter;
      static Werewolves = werewolves;
+     static Vue = vue;
+     static Electron = electron;
 }
 
 export default Icons;
