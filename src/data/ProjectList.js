@@ -1,5 +1,19 @@
 export default [
      {
+          name: "Dwidder",
+          type: "Web App",
+          logo: "https://raw.githubusercontent.com/RiadhAdrani/dwidder/master/src/assets/icon.png",
+          description: `Dwidder is a social network based on "Twitter". The name is inspired from a Tunisian meal called "Dwida". The App allow the user to create an account (😯), create posts (text and image), search for other users and check their profiles, change the theme of the App (Light, Dark and Abyss) and real time messaging using "Firebase Firestore"`,
+          link: "https://github.com/RiadhAdrani/dwidder",
+          linkLogo: "fab fa-github",
+          color: "1e9eae",
+          techs: [
+               { display: "javascript", logo: "javascript" },
+               { display: "recursive", logo: "vercel" },
+               { display: "firebase", logo: "firebase" },
+          ],
+     },
+     {
           name: "Color Noter - Web",
           type: "Web App",
           logo: "https://raw.githubusercontent.com/RiadhAdrani/color-noter-desktop/master/md/color-noter.png",

@@ -59,23 +59,33 @@ export default (project) => {
                               children: [
                                    H4({
                                         text: [
-                                             `${project.name} `,
-                                             Span({
-                                                  text: `(${project.type}) `,
-                                                  styleSheet: {
-                                                       className: "project-type",
-                                                       normal: {
-                                                            fontWeight: "300",
-                                                       },
-                                                  },
-                                             }),
                                              A({
                                                   href: project.link,
                                                   target: "blank",
-                                                  style: { color: "inherit" },
+                                                  style: {
+                                                       color: "inherit",
+                                                       textDecoration: "none",
+                                                  },
                                                   children: [
-                                                       I({
-                                                            className: project.linkLogo,
+                                                       `${project.name} `,
+                                                       Span({
+                                                            text: `(${project.type}) `,
+                                                            styleSheet: {
+                                                                 className: "project-type",
+                                                                 normal: {
+                                                                      fontWeight: "300",
+                                                                 },
+                                                            },
+                                                       }),
+                                                       A({
+                                                            href: project.link,
+                                                            target: "blank",
+                                                            style: { color: "inherit" },
+                                                            children: [
+                                                                 I({
+                                                                      className: project.linkLogo,
+                                                                 }),
+                                                            ],
                                                        }),
                                                   ],
                                              }),

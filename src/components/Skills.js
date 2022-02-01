@@ -10,6 +10,7 @@ const env = [
      { name: "vuejs", logo: "vuedotjs" },
      { name: "electron", logo: "electron" },
      { name: "angular", logo: "angular" },
+     { name: "svelte", logo: "svelte" },
      { name: "unity", logo: "unity" },
      { name: "firebase", logo: "firebase" },
 ];
