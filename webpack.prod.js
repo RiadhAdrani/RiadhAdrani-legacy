@@ -12,7 +12,7 @@ module.exports = merge(common, {
      output: {
           filename: "main.[contenthash].js",
           path: path.resolve(__dirname, "docs"),
-          publicPath: "https://riadhadrani.github.io/recursive-website/",
+          publicPath: "https://riadhadrani.github.io/RiadhAdrani",
      },
      optimization: {
           minimizer: [
