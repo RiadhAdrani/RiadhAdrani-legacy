@@ -4,6 +4,15 @@ import Title from "../elements/Title";
 
 const list = [
     {
+        name: "Audiphy",
+        type: "Desktop App",
+        color: "#3083f6",
+        logo: "https://raw.githubusercontent.com/RiadhAdrani/audiphy/master/ss/audiphy.png",
+        description: `Audiphy is a simple audio player inspired from "Spotify", made with Electron.js and Recursive.js for Windows OS`,
+        technologies: ["Javascript", "Recursive", "Electron.js"],
+        projectLink: "https://github.com/RiadhAdrani/audiphy",
+    },
+    {
         name: "Wroddit",
         type: "Web App",
         color: "#E9ECEF",
@@ -48,7 +57,7 @@ const list = [
         name: "Recursive",
         type: "Front End Framework",
         color: "#cf2026",
-        logo: "https://raw.githubusercontent.com/RiadhAdrani/recursive/master/logo.png",
+        logo: "https://raw.githubusercontent.com/RiadhAdrani/create-recursive-app/master/src/logo.png",
         description: `Recursive is an ongoing project that allow developers to build a functional,
          component-based, Javascript only, beautiful and interactive Web applications.`,
         technologies: ["Javascript"],
