@@ -4,21 +4,6 @@ Hello there ! my name is Riadh Adrani (pronounced Riyadh Adrani), I graduated fr
 
 Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 
-## Environments & Frameworks
-
-![](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=react&color=%232e2e2e)
-![](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=flutter&color=%232e2e2e)
-![](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=vuedotjs&color=%232e2e2e)
-![](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=electron&color=%232e2e2e)
-![](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=angular&color=%232e2e2e)
-![](https://img.shields.io/badge/svelte-%23DD0031.svg?style=for-the-badge&logo=svelte&logoColor=svelte&color=%232e2e2e)
-![](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=xamarin&color=%232e2e2e)
-![](https://img.shields.io/badge/Express-3199DC?style=for-the-badge&logo=express&logoColor=xamarin&color=%232e2e2e)
-![](https://img.shields.io/badge/Sprintboot-3199DC?style=for-the-badge&logo=spring&logoColor=xamarin&color=%232e2e2e)
-![](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white&color=%232e2e2e)
-![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
-![](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&color=%232e2e2e)
-
 ## Languages & Markup
 
 ![](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -34,6 +19,22 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 ![](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=html5&color=%232e2e2e)
 ![](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=markdown&color=%232e2e2e)
 ![](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white&color=%232e2e2e)
+
+## Environments & Frameworks
+
+![](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=react&color=%232e2e2e)
+![](https://img.shields.io/badge/android-%2320232a.svg?style=for-the-badge&logo=android&logoColor=react&color=%232e2e2e)
+![](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=flutter&color=%232e2e2e)
+![](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=vuedotjs&color=%232e2e2e)
+![](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=electron&color=%232e2e2e)
+![](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=angular&color=%232e2e2e)
+![](https://img.shields.io/badge/svelte-%23DD0031.svg?style=for-the-badge&logo=svelte&logoColor=svelte&color=%232e2e2e)
+![](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=xamarin&color=%232e2e2e)
+![](https://img.shields.io/badge/Express-3199DC?style=for-the-badge&logo=express&logoColor=xamarin&color=%232e2e2e)
+![](https://img.shields.io/badge/Sprintboot-3199DC?style=for-the-badge&logo=spring&logoColor=xamarin&color=%232e2e2e)
+![](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
+![](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&color=%232e2e2e)
 
 ## IDEs & Editors
 
