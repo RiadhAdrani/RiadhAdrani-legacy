@@ -1,6 +1,8 @@
 import { A, Column, H2, I, Img, P, Row, Span } from "@riadh-adrani/recursive/components";
 
 export default (item) => {
+    const links = Array.isArray(item.projectLink) ? item.projectLink : [item.projectLink];
+
     return Row({
         style: {
             className: `project-view`,
@@ -55,11 +57,18 @@ export default (item) => {
                                 },
                                 text: ` (${item.type}) `,
                             }),
-                            A({
+                            Span({
                                 flags: { renderIf: item.projectLink != undefined },
-                                href: item.projectLink,
-                                style: { inline: { color: "inherit" } },
-                                children: I({ className: "fa-brands fa-github" }),
+                                text: links.map((link) =>
+                                    A({
+                                        href: link,
+                                        target: "blank",
+                                        style: {
+                                            inline: { color: "inherit", paddingRight: "5px" },
+                                        },
+                                        children: I({ className: "fa-brands fa-github" }),
+                                    })
+                                ),
                             }),
                             Span({ text: " " }),
                             A({

@@ -4,6 +4,18 @@ import Title from "../elements/Title";
 
 const list = [
     {
+        name: "WeTube",
+        type: "Web App",
+        color: "#00a8e8",
+        logo: "https://raw.githubusercontent.com/RiadhAdrani/wetube-fe/master/wetube.png",
+        description: `WeTube is a Youtube clone made with Recursive (Front End), Express (Back End) and PostgreSQL (Database).`,
+        technologies: ["Javascript", "Recursive", "Express", "PostgreSQL"],
+        projectLink: [
+            "https://github.com/RiadhAdrani/wetube-fe",
+            "https://github.com/RiadhAdrani/wetube-be",
+        ],
+    },
+    {
         name: "Audiphy",
         type: "Desktop App",
         color: "#3083f6",
