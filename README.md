@@ -1,3 +1,4 @@
+
 # Welcome
 
 Hello there ! my name is Riadh Adrani (pronounced Riyadh Adrani), I graduated from the Higher Institute of Information Technologies and communications in Borj Cedria with the bachelor of "Embedded Systems" from the branch "Industrial Computing". As for now, I am a Web Designer, but I am open for any adventure..
@@ -20,7 +21,7 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 ![](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=markdown&color=%232e2e2e)
 ![](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white&color=%232e2e2e)
 
-## Environments & Frameworks
+## Frameworks & Libraries
 
 ![](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/android-%2320232a.svg?style=for-the-badge&logo=android&logoColor=react&color=%232e2e2e)
@@ -34,6 +35,19 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 ![](https://img.shields.io/badge/Sprintboot-3199DC?style=for-the-badge&logo=spring&logoColor=xamarin&color=%232e2e2e)
 ![](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
+
+## Tools & Utilities
+
+![](https://img.shields.io/badge/jest-%23008080.svg?style=for-the-badge&logo=jest&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/webpack-%23008080.svg?style=for-the-badge&logo=webpack&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/react%20router-%2320232a.svg?style=for-the-badge&logo=react&logoColor=react&color=%232e2e2e)
+![](https://img.shields.io/badge/styled%20components-%2320232a.svg?style=for-the-badge&logo=styled-components&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/android%20jetpack-%23008080.svg?style=for-the-badge&logo=android&logoColor&color=%232e2e2e)
+
+## Databases
+
+![](https://img.shields.io/badge/postgresql-%23008080.svg?style=for-the-badge&logo=postgresql&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/mysql-%23008080.svg?style=for-the-badge&logo=mysql&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&color=%232e2e2e)
 
 ## IDEs & Editors
@@ -58,3 +72,4 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 I also have a youtube channel where I post Animated backgrounds, made with After Effects (& Photoshop)
 
 <a href="https://www.youtube.com/c/AdraniRiadh/" target="_blank">![](https://img.shields.io/badge/Riadh_Adrani-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=%23ff0000&color=%232e2e2e)</a>
+
