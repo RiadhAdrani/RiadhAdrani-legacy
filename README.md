@@ -32,6 +32,7 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 ![](https://img.shields.io/badge/svelte-%23DD0031.svg?style=for-the-badge&logo=svelte&logoColor=svelte&color=%232e2e2e)
 ![](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=xamarin&color=%232e2e2e)
 ![](https://img.shields.io/badge/Express-3199DC?style=for-the-badge&logo=express&logoColor=xamarin&color=%232e2e2e)
+![](https://img.shields.io/badge/Nest%20js-3199DC?style=for-the-badge&logo=nestjs&logoColor=nestjs&color=%232e2e2e)
 ![](https://img.shields.io/badge/Sprintboot-3199DC?style=for-the-badge&logo=spring&logoColor=xamarin&color=%232e2e2e)
 ![](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
@@ -39,10 +40,13 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 ## Tools & Utilities
 
 ![](https://img.shields.io/badge/jest-%23008080.svg?style=for-the-badge&logo=jest&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/redux-%2320232a.svg?style=for-the-badge&logo=redux&logoColor&color=%232e2e2e)
+![](https://img.shields.io/badge/react%20router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/webpack-%23008080.svg?style=for-the-badge&logo=webpack&logoColor=white&color=%232e2e2e)
-![](https://img.shields.io/badge/react%20router-%2320232a.svg?style=for-the-badge&logo=react&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/styled%20components-%2320232a.svg?style=for-the-badge&logo=styled-components&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/android%20jetpack-%23008080.svg?style=for-the-badge&logo=android&logoColor&color=%232e2e2e)
+![](https://img.shields.io/badge/prisma-%23008080.svg?style=for-the-badge&logo=prisma&logoColor&color=%232e2e2e)
 
 ## Databases
 
