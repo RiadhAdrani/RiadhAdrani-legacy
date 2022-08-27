@@ -6,6 +6,7 @@ const App = new RecursiveWebApp({
     root: document.body,
     app: AppTree,
     route: AppRoutes,
+    base: "RiadhAdrani",
 });
 
 App.render();
