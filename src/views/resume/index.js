@@ -11,16 +11,7 @@ export default () => {
             Spacer({ height: "30px" }),
             Column({
                 style: { inline: { alignItems: "center" } },
-                children: [
-                    P({ children: "The Resumé should start downloading automatically..." }),
-                    Spacer({ height: "10px" }),
-                    A({ children: TextButton("Download Manually"), href: cv }),
-                    Object({
-                        children: Embed({ src: cv, type: "application/pdf" }),
-                        data: cv,
-                        type: "application/pdf",
-                    }),
-                ],
+                children: [A({ children: TextButton("Download Resumé"), href: cv })],
             }),
         ],
     });
