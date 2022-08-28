@@ -1,12 +1,19 @@
 import { RecursiveWebApp } from "@riadh-adrani/recursive-web";
+import { useApp } from "@riadh-adrani/recursive-web/packages/components";
 import AppRoutes from "./App.Routes";
 import AppTree from "./App.Tree";
 
+/**
+ * @type {RecursiveWebApp}
+ */
 const App = new RecursiveWebApp({
     root: document.body,
     app: AppTree,
     route: AppRoutes,
     base: "RiadhAdrani",
+    onAppInit: (app) => {
+        useApp(app);
+    },
 });
 
 App.render();
@@ -173,11 +180,10 @@ function getRoute() {
  * @returns
  */
 function route(params) {
-    return arguments[0];
+    return params;
 }
 
 export {
-    Link,
     goTo,
     createComponentStyle,
     setStyle,

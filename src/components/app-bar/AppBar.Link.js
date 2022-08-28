@@ -1,7 +1,16 @@
-import { Row, Span } from "@riadh-adrani/recursive-web/html";
+import { Row, Span, Link } from "@riadh-adrani/recursive-web/html";
 import { getVar } from "@riadh-adrani/recursive-web/style/methods";
-import { getRoute, Link } from "../..";
-import { _text, _textAccent, _textVariant } from "../../style";
+import { getRoute } from "../..";
+import {
+    _backgroundAccent,
+    _backgroundVariant,
+    _main,
+    _mainAccent,
+    _mainVariant,
+    _text,
+    _textAccent,
+    _textVariant,
+} from "../../style";
 import { Icon } from "../icons";
 
 export default (text, to, iconPath) => {
@@ -54,7 +63,7 @@ export default (text, to, iconPath) => {
                 transitionDuration: "200ms",
             },
             hover: {
-                borderBottomColor: getVar(_textVariant),
+                backgroundColor: getVar(_mainAccent),
             },
         },
     });

@@ -1,5 +1,4 @@
-import { Button } from "@riadh-adrani/recursive-web/html";
-import { Link } from "../..";
+import { Button, Link } from "@riadh-adrani/recursive-web/html";
 import { _main, _mainAccent } from "../../style";
 
 export const TextButton = (text, onClick = () => {}) => {

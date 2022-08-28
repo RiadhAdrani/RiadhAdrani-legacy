@@ -79,6 +79,22 @@ export default () => {
                 borderRadius: "5px",
                 backgroundColor: getVar(_main),
             },
+            "::-webkit-scrollbar": {
+                width: "10px",
+            },
+            "::-webkit-scrollbar-track": {
+                background: getVar(_mainAccent),
+            },
+            "::-webkit-scrollbar-thumb": {
+                background: getVar(_textVariant),
+                borderRadius: "2.5px",
+            },
+            "::-webkit-scrollbar-thumb:hover": {
+                background: getVar(_textAccent),
+            },
+            "::-webkit-scrollbar-thumb:active": {
+                background: getVar(_text),
+            },
         },
         mediaQueries: {
             "(max-width:1100px)": {
