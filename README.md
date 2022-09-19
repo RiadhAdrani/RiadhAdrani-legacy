@@ -4,7 +4,7 @@
 My name is Riadh Adrani (pronounced Riyadh Adrani), I graduated as a Embedded Systems developer, I enjoy programming and creating useful softwares.
 In my spare time, I work on a `UI Framework` that I called `Recursive`.
 
-Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
+Contact me via email: [adrani.riadh@gmail.fr](adrani.riadh@gmail.fr)
 
 ## Languages & Markup
 
