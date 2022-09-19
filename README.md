@@ -1,7 +1,8 @@
 
-# Welcome
+# Hello 👋
 
-Hello there ! my name is Riadh Adrani (pronounced Riyadh Adrani), I graduated from the Higher Institute of Information Technologies and communications in Borj Cedria with the bachelor of "Embedded Systems" from the branch "Industrial Computing". As for now, I am a Web Designer, but I am open for any adventure..
+My name is Riadh Adrani (pronounced Riyadh Adrani), I graduated as a Embedded Systems developer, I enjoy programming and creating useful softwares.
+In my spare time, I work on a `UI Framework` that I called `Recursive`.
 
 Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 
@@ -21,8 +22,9 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 ![](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=markdown&color=%232e2e2e)
 ![](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white&color=%232e2e2e)
 
-## Frameworks & Libraries
+## Environments, Frameworks & Libraries
 
+![](https://img.shields.io/badge/node.js-%2320232a.svg?style=for-the-badge&logo=node.js&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/android-%2320232a.svg?style=for-the-badge&logo=android&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=flutter&color=%232e2e2e)
@@ -39,6 +41,7 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 
 ## Tools & Utilities
 
+![](https://img.shields.io/badge/npm-%23008080.svg?style=for-the-badge&logo=npm&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/jest-%23008080.svg?style=for-the-badge&logo=jest&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/redux-%2320232a.svg?style=for-the-badge&logo=redux&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/react%20router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=react&color=%232e2e2e)
@@ -47,6 +50,7 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 ![](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/android%20jetpack-%23008080.svg?style=for-the-badge&logo=android&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/prisma-%23008080.svg?style=for-the-badge&logo=prisma&logoColor&color=%232e2e2e)
+![](https://img.shields.io/badge/tailwindcss-%23008080.svg?style=for-the-badge&logo=tailwindcss&logoColor&color=%232e2e2e)
 
 ## Databases
 
@@ -65,6 +69,12 @@ Contact me via email: [riadh_adrani@hotmail.fr](riadh_adrani@hotmail.fr)
 
 ![](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=git&color=%232e2e2e)
 ![](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/gitlab-%23121011.svg?style=for-the-badge&logo=gitlab&logoColor=white&color=%232e2e2e)
+
+## Operating Systems
+
+![](https://img.shields.io/badge/windows-%23F05033.svg?style=for-the-badge&logo=windows&logoColor=windows&color=%232e2e2e)
+![](https://img.shields.io/badge/ubuntu-%23F05033.svg?style=for-the-badge&logo=ubuntu&logoColor=ubuntu&color=%232e2e2e)
 
 ## Graphic Design
 
