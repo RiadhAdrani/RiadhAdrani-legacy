@@ -9,11 +9,11 @@ Contact me via email: [adrani.riadh@gmail.fr](adrani.riadh@gmail.fr)
 ## Languages & Markup
 
 ![](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=typescript&color=%232e2e2e)
+![](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=kotlin&color=%232e2e2e)
+![](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=dart&color=%232e2e2e)
 ![](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=java&color=%232e2e2e)
 ![](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=c%23&color=%232e2e2e)
-![](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=kotlin&color=%232e2e2e)
-![](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=typescript&color=%232e2e2e)
-![](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=dart&color=%232e2e2e)
 ![](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=c&color=%232e2e2e)
 ![](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=c++&color=%232e2e2e)
 ![](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white&color=%232e2e2e)
@@ -33,11 +33,11 @@ Contact me via email: [adrani.riadh@gmail.fr](adrani.riadh@gmail.fr)
 ![](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=angular&color=%232e2e2e)
 ![](https://img.shields.io/badge/svelte-%23DD0031.svg?style=for-the-badge&logo=svelte&logoColor=svelte&color=%232e2e2e)
 ![](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=xamarin&color=%232e2e2e)
-![](https://img.shields.io/badge/Express-3199DC?style=for-the-badge&logo=express&logoColor=xamarin&color=%232e2e2e)
+![](https://img.shields.io/badge/Express-3199DC?style=for-the-badge&logo=express&logoColor=express&color=%232e2e2e)
 ![](https://img.shields.io/badge/Nest%20js-3199DC?style=for-the-badge&logo=nestjs&logoColor=nestjs&color=%232e2e2e)
-![](https://img.shields.io/badge/Sprintboot-3199DC?style=for-the-badge&logo=spring&logoColor=xamarin&color=%232e2e2e)
+![](https://img.shields.io/badge/Sprintboot-3199DC?style=for-the-badge&logo=spring&logoColor=spring&color=%232e2e2e)
+![](https://img.shields.io/badge/Adonis%20js-3199DC?style=for-the-badge&logo=adonisjs&logoColor=adonisjs&color=%232e2e2e)
 ![](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white&color=%232e2e2e)
-![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
 
 ## Tools & Utilities
 
@@ -47,10 +47,11 @@ Contact me via email: [adrani.riadh@gmail.fr](adrani.riadh@gmail.fr)
 ![](https://img.shields.io/badge/react%20router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/webpack-%23008080.svg?style=for-the-badge&logo=webpack&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/styled%20components-%2320232a.svg?style=for-the-badge&logo=styled-components&logoColor=white&color=%232e2e2e)
-![](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/android%20jetpack-%23008080.svg?style=for-the-badge&logo=android&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/prisma-%23008080.svg?style=for-the-badge&logo=prisma&logoColor&color=%232e2e2e)
+![](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/tailwindcss-%23008080.svg?style=for-the-badge&logo=tailwindcss&logoColor&color=%232e2e2e)
+![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
 
 ## Databases
 
