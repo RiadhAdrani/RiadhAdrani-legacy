@@ -1,15 +1,28 @@
 import { Button, Column, H3, Img, Row, Spacer } from "@riadh-adrani/recursive-web/html";
 import { getVar, linearGradient } from "@riadh-adrani/recursive-web/style/methods";
 import { _main, _mainAccent, _textAccent } from "../../../style";
-import { getRef, getState, setState } from "../../..";
+import { getRef, getState, setEffect, setState } from "../../..";
 import icons, { Icon } from "../../../components/icons";
 import technologies from "../../../data/technologies";
 
-let timeout = setTimeout(() => {}, 0);
+function slideToIndex(index) {
+    const sliderElement = getRef("slider");
+
+    sliderElement.scroll({
+        left: index * 300,
+        behavior: "smooth",
+    });
+}
 
 export default () => {
-    function carroussel() {
-        timeout = setTimeout(() => {
+    const [slider] = setState("slider", {
+        index: 0,
+        items: technologies,
+        direction: 1,
+    });
+
+    setEffect("set-slider-timer", [slider], () => {
+        const timeout = setTimeout(() => {
             const [slider, setSlider] = getState("slider");
 
             if (slider.items.length < 2) return;
@@ -32,25 +45,10 @@ export default () => {
 
             slideToIndex(slider.index);
             setSlider(slider);
-
-            carroussel();
         }, 2500);
-    }
 
-    const [slider] = setState(
-        "slider",
-        {
-            index: 0,
-            items: technologies,
-            direction: 1,
-        },
-        () => {
-            carroussel();
-        },
-        () => {
-            clearTimeout(timeout);
-        }
-    );
+        return () => clearTimeout(timeout);
+    });
 
     return Row({
         style: {
@@ -83,15 +81,6 @@ export default () => {
         ],
     });
 };
-
-function slideToIndex(index) {
-    const sliderElement = getRef("slider");
-
-    sliderElement.scroll({
-        left: index * 300,
-        behavior: "smooth",
-    });
-}
 
 function SliderItem(item) {
     return Column({
@@ -179,7 +168,6 @@ function SliderArrows(left = true) {
                 }
 
                 slideToIndex(slider.index);
-
                 setSlider(slider);
             },
         }),

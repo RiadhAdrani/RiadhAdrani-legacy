@@ -15,6 +15,8 @@ import postgresLogo from "../assets/logos/postgres.png";
 import firebaseLogo from "../assets/logos/firebase.png";
 import javaLogo from "../assets/logos/java.png";
 import flutterLogo from "../assets/logos/flutter.svg";
+import svelteLogo from "../assets/logos/svelte.png";
+import adonisjsLogo from "../assets/logos/adonisjs.png";
 
 import { shuffle } from "../utils";
 
@@ -39,25 +41,29 @@ export const postgres = tech("PostgreSQL", postgresLogo);
 export const firebase = tech("Firebase", firebaseLogo);
 export const java = tech("Java", javaLogo);
 export const flutter = tech("Flutter", flutterLogo);
+export const svelte = tech("Svelte", svelteLogo);
+export const adonisjs = tech("Adonis Js", adonisjsLogo);
 
 export const technologies = [
     js,
-    recursive,
+    ts,
+    dart,
+    kotlin,
+    java,
     nodejs,
+    recursive,
     react,
     vue,
     angular,
-    android,
-    dart,
+    svelte,
     flutter,
-    electron,
-    java,
-    kotlin,
-    ts,
+    android,
     express,
     nest,
+    adonisjs,
     postgres,
     firebase,
+    electron,
 ];
 
 export function shuffledTechnologies() {

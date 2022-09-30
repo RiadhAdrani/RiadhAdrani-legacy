@@ -1,19 +1,13 @@
 import { RecursiveWebApp } from "@riadh-adrani/recursive-web";
-import { useApp } from "@riadh-adrani/recursive-web/packages/components";
 import AppRoutes from "./App.Routes";
 import AppTree from "./App.Tree";
 
-/**
- * @type {RecursiveWebApp}
- */
 const App = new RecursiveWebApp({
     root: document.body,
     app: AppTree,
     route: AppRoutes,
     base: "RiadhAdrani",
-    onAppInit: (app) => {
-        useApp(app);
-    },
+    scopedStyle: true,
 });
 
 App.render();
@@ -149,15 +143,6 @@ function setStyle(cssObject) {
 }
 
 /**
- *
- * @param {import("@riadh-adrani/recursive-web/lib").StyleSheet} param
- * @returns
- */
-function createComponentStyle(param) {
-    return App.createComponentStyle(param);
-}
-
-/**
  * Create a modifed `<a>` element for routing.
  * @param {import("@riadh-adrani/recursive-web/lib").AProps} props
  * @returns
@@ -183,9 +168,18 @@ function route(params) {
     return params;
 }
 
+/**
+ * Execute side effects
+ * @param {string} key
+ * @param {Array<any>} dependencies
+ * @param {() => Function} callback
+ */
+function setEffect(key, dependencies, callback) {
+    App.setEffect(key, dependencies, callback);
+}
+
 export {
     goTo,
-    createComponentStyle,
     setStyle,
     setState,
     updateOn,
@@ -197,4 +191,5 @@ export {
     getRoute,
     renderRoute,
     route,
+    setEffect,
 };

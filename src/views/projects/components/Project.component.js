@@ -11,7 +11,7 @@ import {
     Spacer,
     Span,
 } from "@riadh-adrani/recursive-web/html";
-import { attr, getVar, grayScale, scale } from "@riadh-adrani/recursive-web/style/methods";
+import { attr, getVar, grayScale } from "@riadh-adrani/recursive-web/style/methods";
 import icons, { Icon } from "../../../components/icons";
 import {
     _background,
