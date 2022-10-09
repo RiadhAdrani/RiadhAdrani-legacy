@@ -43,6 +43,7 @@ Contact me via email: [adrani.riadh@gmail.fr](adrani.riadh@gmail.fr)
 
 ![](https://img.shields.io/badge/npm-%23008080.svg?style=for-the-badge&logo=npm&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/jest-%23008080.svg?style=for-the-badge&logo=jest&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/testing%20library-%23008080.svg?style=for-the-badge&logo=testing-library&logoColor=testing-library&color=%232e2e2e)
 ![](https://img.shields.io/badge/redux-%2320232a.svg?style=for-the-badge&logo=redux&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/react%20router-%2320232a.svg?style=for-the-badge&logo=react-router&logoColor=react&color=%232e2e2e)
 ![](https://img.shields.io/badge/webpack-%23008080.svg?style=for-the-badge&logo=webpack&logoColor=white&color=%232e2e2e)
