@@ -34,6 +34,7 @@ Contact me via email: [adrani.riadh@gmail.fr](adrani.riadh@gmail.fr)
 ![](https://img.shields.io/badge/svelte-%23DD0031.svg?style=for-the-badge&logo=svelte&logoColor=svelte&color=%232e2e2e)
 ![](https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=xamarin&color=%232e2e2e)
 ![](https://img.shields.io/badge/Express-3199DC?style=for-the-badge&logo=express&logoColor=express&color=%232e2e2e)
+![](https://img.shields.io/badge/Fastify-3199DC?style=for-the-badge&logo=fastify&logoColor=fastify&color=%232e2e2e)
 ![](https://img.shields.io/badge/Nest%20js-3199DC?style=for-the-badge&logo=nestjs&logoColor=nestjs&color=%232e2e2e)
 ![](https://img.shields.io/badge/Sprintboot-3199DC?style=for-the-badge&logo=spring&logoColor=spring&color=%232e2e2e)
 ![](https://img.shields.io/badge/Adonis%20js-3199DC?style=for-the-badge&logo=adonisjs&logoColor=adonisjs&color=%232e2e2e)
@@ -52,12 +53,14 @@ Contact me via email: [adrani.riadh@gmail.fr](adrani.riadh@gmail.fr)
 ![](https://img.shields.io/badge/prisma-%23008080.svg?style=for-the-badge&logo=prisma&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/tailwindcss-%23008080.svg?style=for-the-badge&logo=tailwindcss&logoColor&color=%232e2e2e)
+![](https://img.shields.io/badge/sass-%23008080.svg?style=for-the-badge&logo=sass&logoColor&color=%232e2e2e)
 ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
 
 ## Databases
 
 ![](https://img.shields.io/badge/postgresql-%23008080.svg?style=for-the-badge&logo=postgresql&logoColor=white&color=%232e2e2e)
 ![](https://img.shields.io/badge/mysql-%23008080.svg?style=for-the-badge&logo=mysql&logoColor=white&color=%232e2e2e)
+![](https://img.shields.io/badge/rethinkdb-%23039BE5.svg?style=for-the-badge&logo=rethinkdb&color=%232e2e2e)
 ![](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&color=%232e2e2e)
 
 ## IDEs & Editors
