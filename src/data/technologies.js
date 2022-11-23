@@ -17,11 +17,16 @@ import javaLogo from "../assets/logos/java.png";
 import flutterLogo from "../assets/logos/flutter.svg";
 import svelteLogo from "../assets/logos/svelte.png";
 import adonisjsLogo from "../assets/logos/adonisjs.png";
+import sassLogo from "../assets/logos/sass.png";
+import denoLogo from "../assets/logos/deno.png";
+import solidLogo from "../assets/logos/solidjs.svg";
+import quasarLogo from "../assets/logos/quasar.svg";
+import fastifyLogo from "../assets/logos/fastify.svg";
 
 import { shuffle } from "../utils";
 
-const tech = (name, src) => {
-    return { name, src };
+const tech = (name, src, invert = false) => {
+  return { name, src, invert };
 };
 
 export const js = tech("JavaScript", jsLogo);
@@ -43,31 +48,49 @@ export const java = tech("Java", javaLogo);
 export const flutter = tech("Flutter", flutterLogo);
 export const svelte = tech("Svelte", svelteLogo);
 export const adonisjs = tech("Adonis Js", adonisjsLogo);
+export const sass = tech("Sass", sassLogo);
+export const deno = tech("Deno", denoLogo, true);
+export const solidjs = tech("Solid Js", solidLogo);
+export const quasar = tech("Quasar", quasarLogo);
+export const fastify = tech("Fastify", fastifyLogo, true);
 
 export const technologies = [
-    js,
-    ts,
-    dart,
-    kotlin,
-    java,
-    nodejs,
-    recursive,
-    react,
-    vue,
-    angular,
-    svelte,
-    flutter,
-    android,
-    express,
-    nest,
-    adonisjs,
-    postgres,
-    firebase,
-    electron,
+  js,
+  ts,
+  dart,
+  kotlin,
+  java,
+
+  nodejs,
+  deno,
+
+  recursive,
+  react,
+  vue,
+  angular,
+  svelte,
+  solidjs,
+
+  flutter,
+  quasar,
+
+  android,
+
+  express,
+  fastify,
+  nest,
+  adonisjs,
+
+  postgres,
+  firebase,
+
+  electron,
+
+  sass,
 ];
 
 export function shuffledTechnologies() {
-    return shuffle(technologies);
+  return shuffle(technologies);
 }
 
 export default technologies;
