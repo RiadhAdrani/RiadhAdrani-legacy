@@ -6,35 +6,35 @@ const TerserPlugin = require("terser-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = merge(common, {
-    mode: "production",
-    output: {
-        filename: "main.[contenthash].js",
-        path: path.resolve(__dirname, "docs"),
-        publicPath: "https://riadhadrani.github.io/RiadhAdrani/",
-    },
-    optimization: {
-        minimizer: [
-            new TerserPlugin(),
-            new HTMLWebpackPlugin({
-                template: "./public/index.html",
-                filename: "index.html",
-                minify: {
-                    removeAttributeQuotes: true,
-                    collapseWhitespace: true,
-                    removeComments: true,
-                },
-            }),
-            new HTMLWebpackPlugin({
-                template: "./public/index.html",
-                filename: "404.html",
-                minify: {
-                    removeAttributeQuotes: true,
-                    collapseWhitespace: true,
-                    removeComments: true,
-                },
-            }),
-        ],
-    },
-    plugins: [new CleanWebpackPlugin()],
-    module: {},
+  mode: "production",
+  output: {
+    filename: "main.[contenthash].js",
+    path: path.resolve(__dirname, "build"),
+    publicPath: "https://riadhadrani.github.io/RiadhAdrani/",
+  },
+  optimization: {
+    minimizer: [
+      new TerserPlugin(),
+      new HTMLWebpackPlugin({
+        template: "./public/index.html",
+        filename: "index.html",
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: true,
+          removeComments: true,
+        },
+      }),
+      new HTMLWebpackPlugin({
+        template: "./public/index.html",
+        filename: "404.html",
+        minify: {
+          removeAttributeQuotes: true,
+          collapseWhitespace: true,
+          removeComments: true,
+        },
+      }),
+    ],
+  },
+  plugins: [new CleanWebpackPlugin()],
+  module: {},
 });
