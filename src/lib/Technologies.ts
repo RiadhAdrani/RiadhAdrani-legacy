@@ -6,7 +6,7 @@ export interface Technology {
 	inverted?: boolean;
 }
 
-export const Technologies: Record<string, Technology> = {
+export const Technologies = {
 	JavaScript: { logo: Assets.JavaScript, name: 'JavaScript' },
 	TypeScript: { logo: Assets.TypeScript, name: 'TypeScript' },
 	Dart: { logo: Assets.Dart, name: 'Dart' },
@@ -34,4 +34,6 @@ export const Technologies: Record<string, Technology> = {
 	Sass: { logo: Assets.Sass, name: 'Sass' }
 };
 
-export const TechnologiesList = Object.keys(Technologies).map((tech) => Technologies[tech]);
+export const TechnologiesList = Object.keys(Technologies).map(
+	(tech) => (Technologies as Record<string, Technology>)[tech]
+);

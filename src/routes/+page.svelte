@@ -26,7 +26,7 @@
 <div class="home">
 	<div class="home-section">
 		<h1 class="home-title">Riadh ADRANI,</h1>
-		<p class="home-subtitle">A self-made software developer.</p>
+		<p class="home-subtitle">A self-made software developer based in Tunisia.</p>
 		<div class="home-social">
 			{#each links as link}
 				<a class="home-social-item" href={link.to} target="_blank" rel="noreferrer">
@@ -57,6 +57,7 @@
 
 		&-subtitle {
 			font-size: 1.5em;
+			font-weight: 200;
 		}
 
 		&-section {

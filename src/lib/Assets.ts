@@ -63,5 +63,17 @@ export default {
 	CardBaker,
 	Gradio,
 	RandomNamePicker,
-	Trello
+	Trello,
+	WeTube: 'https://raw.githubusercontent.com/RiadhAdrani/wetube-fe/master/wetube.png',
+	Audiphy: 'https://raw.githubusercontent.com/RiadhAdrani/audiphy/master/ss/audiphy.png',
+	Wroddit:
+		'https://riadhadrani.github.io/wroddit/imgs/wroddit-dark.ce2166f57a4607631a155b725ccc621a.png',
+	Dwidder: 'https://raw.githubusercontent.com/RiadhAdrani/dwidder/master/src/assets/icon.png',
+	QuestionSubmission:
+		'https://raw.githubusercontent.com/RiadhAdrani/guess-app-questions-submission/master/src/assets/logo_solid.png',
+	Azur: 'https://raw.githubusercontent.com/RiadhAdrani/azur_app/master/app/src/main/res/drawable/ic_app_icon.jpg',
+	Werewolves1:
+		'https://raw.githubusercontent.com/RiadhAdrani/werewolves_of_the_millers_hollow/master/app/src/main/res/drawable/ww_app_icon.jpg',
+	ColorNoter:
+		'https://raw.githubusercontent.com/RiadhAdrani/color-noter-desktop/master/md/color-noter.png'
 };
