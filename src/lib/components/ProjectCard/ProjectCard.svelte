@@ -4,11 +4,19 @@
 	import Icon from '../Icon/Icon.svelte';
 	import { Icons } from '../Icon/Icons';
 	import { changeColorOpacity } from '@riadh-adrani/utility-js/build/src/color';
-	import { countMonths } from '$lib/Utils';
+	import { countMonths, getMonthName } from '$lib/Utils';
+	import Chip from '../Chip/Chip.svelte';
 
 	export let project: Project;
 	const months = countMonths(project.period.from, project.period.to);
 	const period = `${months} month${months > 1 ? 's' : ''}`;
+
+	const from = `${getMonthName(
+		project.period.from.getMonth()
+	)} ${project.period.from.getFullYear()}`;
+	const to = project.period.to
+		? `${getMonthName(project.period.to.getMonth())} ${project.period.to.getFullYear()}`
+		: 'now';
 
 	let el: HTMLElement;
 
@@ -43,6 +51,10 @@
 		<p class="project-card-period">{period}</p>
 	</div>
 	<p class="project-card-description">{project.description}</p>
+	<div class="project-card-bottom">
+		<Chip label={from} />
+		<Chip label={to} />
+	</div>
 	<div class="project-card-divider" />
 	<div class="project-card-technologies">
 		{#each project.technologies as tech}
@@ -141,6 +153,13 @@
 			color: #a0a0a0;
 			font-size: 0.9em;
 			font-style: italic;
+			font-weight: 400;
+		}
+
+		&-bottom {
+			display: flex;
+			justify-content: space-between;
+			font-size: 0.75em;
 			font-weight: 400;
 		}
 

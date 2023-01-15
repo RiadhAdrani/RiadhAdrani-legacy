@@ -21,6 +21,17 @@ export interface Project {
 }
 
 export const Projects: Record<string, Project> = {
+	Werewolves: {
+		color: '#cf2026',
+		name: 'Werewolves',
+		logo: Assets.Werewolves1,
+		description:
+			'An app to manage your game of Loup garous de thiercelieu also known as The Werewolves of Millers Hollow.',
+		period: { from: new Date(2022, 6, 23) },
+		links: [{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/werewolves' }],
+		technologies: [Technologies.Dart, Technologies.Flutter],
+		type: 'Mobile App'
+	},
 	Recursive: {
 		color: '#cf2026',
 		name: 'Recursive',
