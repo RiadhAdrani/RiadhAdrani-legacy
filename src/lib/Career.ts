@@ -45,7 +45,11 @@ export const JobExperiences: Record<string, Experience> = {
 			Technologies.NodeJs,
 			Technologies.Svelte,
 			Technologies.Quasar,
-			Technologies.VueJs
+			Technologies.VueJs,
+			Technologies.Sass,
+			Technologies.Tailwind,
+			Technologies.Redis,
+			Technologies.MongoDB
 		]
 	},
 	Freelancer: {
@@ -81,7 +85,13 @@ export const JobExperiences: Record<string, Experience> = {
 		industry: 'UI Design',
 		location: 'Tunis, Tunisia',
 		period: { from: new Date(2021, 4, 1), to: new Date(2021, 11, 12) },
-		skills: [Technologies.JavaScript]
+		skills: [
+			Technologies.HTML,
+			Technologies.CSS,
+			Technologies.JavaScript,
+			Technologies.Photoshop,
+			Technologies.Illustrator
+		]
 	},
 	GraphicDesignFreelancer: {
 		title: 'Graphic Designer',
@@ -95,7 +105,12 @@ export const JobExperiences: Record<string, Experience> = {
 		industry: 'Graphic Design',
 		location: 'Tunisia',
 		period: { from: new Date(2020, 5, 1), to: new Date(2021, 11, 12) },
-		skills: []
+		skills: [
+			Technologies.Photoshop,
+			Technologies.AfterEffects,
+			Technologies.Illustrator,
+			Technologies.Premiere
+		]
 	},
 	Intern: {
 		title: 'Intern',

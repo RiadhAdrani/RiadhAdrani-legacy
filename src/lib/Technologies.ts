@@ -12,7 +12,7 @@ export const Technologies = {
 	Dart: { logo: Assets.Dart, name: 'Dart' },
 	Kotlin: { logo: Assets.Kotlin, name: 'Kotlin' },
 	Java: { logo: Assets.Java, name: 'Java' },
-	Python: { logo: Assets.Java, name: 'Python' },
+	Python: { logo: Assets.Python, name: 'Python' },
 	NodeJs: { logo: Assets.NodeJs, name: 'Node Js' },
 	Deno: { logo: Assets.Deno, name: 'Deno', inverted: true },
 	VueJs: { logo: Assets.VueJs, name: 'Vue Js' },
@@ -31,7 +31,16 @@ export const Technologies = {
 	AdonisJs: { logo: Assets.AdonisJs, name: 'Adonis Js' },
 	PostgreSQL: { logo: Assets.PostgreSQL, name: 'PostgreSQL' },
 	Firebase: { logo: Assets.Firebase, name: 'Firebase' },
-	Sass: { logo: Assets.Sass, name: 'Sass' }
+	Redis: { logo: Assets.Redis, name: 'Redis' },
+	MongoDB: { logo: Assets.MongoDB, name: 'MongoDB' },
+	Sass: { logo: Assets.Sass, name: 'Sass' },
+	Tailwind: { logo: Assets.Tailwind, name: 'Tailwind' },
+	CSS: { logo: Assets.CSS, name: 'CSS' },
+	HTML: { logo: Assets.HTML, name: 'HTML' },
+	Photoshop: { logo: Assets.Photoshop, name: 'Adobe Photoshop' },
+	Illustrator: { logo: Assets.Illustrator, name: 'Adobe Illustrator' },
+	AfterEffects: { logo: Assets.AfterEffects, name: 'Adobe After Effects' },
+	Premiere: { logo: Assets.Premiere, name: 'Adobe Premiere Pro' }
 };
 
 export const TechnologiesList = Object.keys(Technologies).map(
