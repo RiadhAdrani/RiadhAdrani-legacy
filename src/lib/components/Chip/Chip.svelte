@@ -1,12 +1,36 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+
+	let el: HTMLElement;
+
 	export let label = '';
 	export let active = false;
+	export let hoverable = true;
+	export let size = 'auto';
+
+	onMount(() => {
+		el.style.setProperty('--size', size);
+	});
 </script>
 
-<p class="chip" class:chip-active={active} on:click on:keydown on:keypress on:keyup>{label}</p>
+<p
+	bind:this={el}
+	class="chip"
+	class:chip-active={active}
+	class:chip-hoverable={hoverable}
+	data-size={size}
+	on:click
+	on:keydown
+	on:keypress
+	on:keyup
+>
+	{label}
+</p>
 
 <style lang="scss">
 	.chip {
+		--size: auto;
+
 		padding: 5px 15px;
 		margin: 2.5px;
 		display: inline-block;
@@ -16,9 +40,12 @@
 		font-weight: 200;
 		font-size: 0.95em;
 		transition-duration: 150ms;
+		font-size: var(--size);
 
-		&:hover {
-			background-color: #202020;
+		&-hoverable {
+			&:hover {
+				background-color: #202020;
+			}
 		}
 
 		&-active {

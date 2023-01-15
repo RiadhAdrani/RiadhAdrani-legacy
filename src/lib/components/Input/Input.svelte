@@ -13,6 +13,7 @@
 		padding: 10px 20px;
 		border-radius: 15px;
 		flex: 1;
+		font-size: 1.15em;
 
 		&:focus {
 			outline: 1px solid #5e5e5e;

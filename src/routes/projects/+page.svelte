@@ -64,8 +64,6 @@
 
 <style lang="scss">
 	.projects {
-		padding: 40px 0;
-
 		&-search,
 		&-filters,
 		&-list {

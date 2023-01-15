@@ -16,6 +16,7 @@
 		display: flex;
 		flex-direction: column;
 		flex: 1;
+		padding: 40px 0px;
 	}
 
 	:global(body) {

@@ -33,6 +33,10 @@ import CardBaker from '$lib/assets/logos/card-baker.png';
 import Gradio from '$lib/assets/logos/gradio.png';
 import RandomNamePicker from '$lib/assets/logos/gradio.png';
 import Trello from '$lib/assets/logos/trello.png';
+import BrainAcademy from '$lib/assets/logos/brain-academy.jpg';
+import HsTech from '$lib/assets/logos/hstech.jpg';
+import Unknown from '$lib/assets/logos/no-img.svg';
+import TriWeb from '$lib/assets/logos/triweb.jpg';
 
 export default {
 	TypeScript,
@@ -75,5 +79,9 @@ export default {
 	Werewolves1:
 		'https://raw.githubusercontent.com/RiadhAdrani/werewolves_of_the_millers_hollow/master/app/src/main/res/drawable/ww_app_icon.jpg',
 	ColorNoter:
-		'https://raw.githubusercontent.com/RiadhAdrani/color-noter-desktop/master/md/color-noter.png'
+		'https://raw.githubusercontent.com/RiadhAdrani/color-noter-desktop/master/md/color-noter.png',
+	BrainAcademy,
+	TriWeb,
+	HsTech,
+	Unknown
 };

@@ -4,35 +4,11 @@
 	import Icon from '../Icon/Icon.svelte';
 	import { Icons } from '../Icon/Icons';
 	import { changeColorOpacity } from '@riadh-adrani/utility-js/build/src/color';
+	import { countMonths } from '$lib/Utils';
 
 	export let project: Project;
-
-	let period = '';
-
-	const oldYear = 12 - project.period.from.getMonth();
-
-	if (project.period.to) {
-		let numberOfMonths = 0;
-
-		if (project.period.to.getFullYear() !== project.period.from.getFullYear()) {
-			const newYear = project.period.to.getMonth();
-			const wholeYears =
-				(project.period.to.getFullYear() - project.period.from.getFullYear() - 1) * 12;
-
-			numberOfMonths = wholeYears + oldYear + newYear + 1;
-		} else {
-			numberOfMonths = project.period.to.getMonth() - project.period.from.getMonth();
-		}
-
-		period = `${numberOfMonths} month${numberOfMonths > 1 ? 's' : ''}`;
-	} else {
-		const wholeYears = (new Date().getFullYear() - project.period.from.getFullYear() - 1) * 1;
-		const newYear = new Date().getMonth();
-
-		let numberOfMonths = wholeYears + oldYear + newYear + 1;
-
-		period = `${numberOfMonths} month${numberOfMonths > 1 ? 's' : ''}`;
-	}
+	const months = countMonths(project.period.from, project.period.to);
+	const period = `${months} month${months > 1 ? 's' : ''}`;
 
 	let el: HTMLElement;
 
