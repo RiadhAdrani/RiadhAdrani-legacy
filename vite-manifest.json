@@ -1,0 +1,428 @@
+{
+  "src/lib/assets/logos/js.png": {
+    "file": "_app/immutable/assets/js-48d02175.png",
+    "src": "src/lib/assets/logos/js.png"
+  },
+  "src/lib/assets/logos/dart.png": {
+    "file": "_app/immutable/assets/dart-ce728a8e.png",
+    "src": "src/lib/assets/logos/dart.png"
+  },
+  "src/lib/assets/logos/kotlin.png": {
+    "file": "_app/immutable/assets/kotlin-53eb19d4.png",
+    "src": "src/lib/assets/logos/kotlin.png"
+  },
+  "src/lib/assets/logos/java.png": {
+    "file": "_app/immutable/assets/java-7b1e51de.png",
+    "src": "src/lib/assets/logos/java.png"
+  },
+  "src/lib/assets/logos/python.png": {
+    "file": "_app/immutable/assets/python-e8035619.png",
+    "src": "src/lib/assets/logos/python.png"
+  },
+  "src/lib/assets/logos/node.png": {
+    "file": "_app/immutable/assets/node-8852d2b9.png",
+    "src": "src/lib/assets/logos/node.png"
+  },
+  "src/lib/assets/logos/deno.png": {
+    "file": "_app/immutable/assets/deno-f025c306.png",
+    "src": "src/lib/assets/logos/deno.png"
+  },
+  "src/lib/assets/logos/react.svg": {
+    "file": "_app/immutable/assets/react-f2cadfd0.svg",
+    "src": "src/lib/assets/logos/react.svg"
+  },
+  "src/lib/assets/logos/svelte.png": {
+    "file": "_app/immutable/assets/svelte-13ed3f6c.png",
+    "src": "src/lib/assets/logos/svelte.png"
+  },
+  "src/lib/assets/logos/flutter.svg": {
+    "file": "_app/immutable/assets/flutter-e2cc2c89.svg",
+    "src": "src/lib/assets/logos/flutter.svg"
+  },
+  "src/lib/assets/logos/electron.png": {
+    "file": "_app/immutable/assets/electron-31711ce1.png",
+    "src": "src/lib/assets/logos/electron.png"
+  },
+  "src/lib/assets/logos/recursive.png": {
+    "file": "_app/immutable/assets/recursive-d412fd5f.png",
+    "src": "src/lib/assets/logos/recursive.png"
+  },
+  "src/lib/assets/logos/solid.svg": {
+    "file": "_app/immutable/assets/solid-123b04bc.svg",
+    "src": "src/lib/assets/logos/solid.svg"
+  },
+  "src/lib/assets/logos/quasar.svg": {
+    "file": "_app/immutable/assets/quasar-be59a798.svg",
+    "src": "src/lib/assets/logos/quasar.svg"
+  },
+  "src/lib/assets/logos/android.png": {
+    "file": "_app/immutable/assets/android-83b259c2.png",
+    "src": "src/lib/assets/logos/android.png"
+  },
+  "src/lib/assets/logos/express.png": {
+    "file": "_app/immutable/assets/express-fd78a3cf.png",
+    "src": "src/lib/assets/logos/express.png"
+  },
+  "src/lib/assets/logos/angular.png": {
+    "file": "_app/immutable/assets/angular-628a1332.png",
+    "src": "src/lib/assets/logos/angular.png"
+  },
+  "src/lib/assets/logos/vue.png": {
+    "file": "_app/immutable/assets/vue-d22b0391.png",
+    "src": "src/lib/assets/logos/vue.png"
+  },
+  "src/lib/assets/logos/ts.png": {
+    "file": "_app/immutable/assets/ts-a285671f.png",
+    "src": "src/lib/assets/logos/ts.png"
+  },
+  "src/lib/assets/logos/fastify.svg": {
+    "file": "_app/immutable/assets/fastify-9904a2a7.svg",
+    "src": "src/lib/assets/logos/fastify.svg"
+  },
+  "src/lib/assets/logos/nest.svg": {
+    "file": "_app/immutable/assets/nest-48bd018d.svg",
+    "src": "src/lib/assets/logos/nest.svg"
+  },
+  "src/lib/assets/logos/adonis.png": {
+    "file": "_app/immutable/assets/adonis-a1ee9ffd.png",
+    "src": "src/lib/assets/logos/adonis.png"
+  },
+  "src/lib/assets/logos/mongodb.svg": {
+    "file": "_app/immutable/assets/mongodb-38222573.svg",
+    "src": "src/lib/assets/logos/mongodb.svg"
+  },
+  "src/lib/assets/logos/redis.svg": {
+    "file": "_app/immutable/assets/redis-f1d469f7.svg",
+    "src": "src/lib/assets/logos/redis.svg"
+  },
+  "src/lib/assets/logos/postgres.png": {
+    "file": "_app/immutable/assets/postgres-366931b7.png",
+    "src": "src/lib/assets/logos/postgres.png"
+  },
+  "src/lib/assets/logos/firebase.png": {
+    "file": "_app/immutable/assets/firebase-dd7fbb93.png",
+    "src": "src/lib/assets/logos/firebase.png"
+  },
+  "src/lib/assets/logos/html.svg": {
+    "file": "_app/immutable/assets/html-ed8b74df.svg",
+    "src": "src/lib/assets/logos/html.svg"
+  },
+  "src/lib/assets/logos/css.svg": {
+    "file": "_app/immutable/assets/css-8bb4d2b9.svg",
+    "src": "src/lib/assets/logos/css.svg"
+  },
+  "src/lib/assets/logos/sass.png": {
+    "file": "_app/immutable/assets/sass-5ec55337.png",
+    "src": "src/lib/assets/logos/sass.png"
+  },
+  "src/lib/assets/logos/tailwind.svg": {
+    "file": "_app/immutable/assets/tailwind-29b2f046.svg",
+    "src": "src/lib/assets/logos/tailwind.svg"
+  },
+  "src/lib/assets/logos/photoshop.svg": {
+    "file": "_app/immutable/assets/photoshop-4e8a5535.svg",
+    "src": "src/lib/assets/logos/photoshop.svg"
+  },
+  "src/lib/assets/logos/after-effects.svg": {
+    "file": "_app/immutable/assets/after-effects-dcca04ac.svg",
+    "src": "src/lib/assets/logos/after-effects.svg"
+  },
+  "src/lib/assets/logos/premiere.svg": {
+    "file": "_app/immutable/assets/premiere-86a3c358.svg",
+    "src": "src/lib/assets/logos/premiere.svg"
+  },
+  "src/lib/assets/logos/illustrator.svg": {
+    "file": "_app/immutable/assets/illustrator-84132260.svg",
+    "src": "src/lib/assets/logos/illustrator.svg"
+  },
+  "src/lib/assets/logos/card-baker.png": {
+    "file": "_app/immutable/assets/card-baker-4b98a2cb.png",
+    "src": "src/lib/assets/logos/card-baker.png"
+  },
+  "src/lib/assets/logos/gradio.png": {
+    "file": "_app/immutable/assets/gradio-5bb386b2.png",
+    "src": "src/lib/assets/logos/gradio.png"
+  },
+  "src/lib/assets/logos/hstech.jpg": {
+    "file": "_app/immutable/assets/hstech-ca0a4a72.jpg",
+    "src": "src/lib/assets/logos/hstech.jpg"
+  },
+  "src/lib/assets/logos/no-img.svg": {
+    "file": "_app/immutable/assets/no-img-bbc286ba.svg",
+    "src": "src/lib/assets/logos/no-img.svg"
+  },
+  "src/lib/assets/cv.pdf": {
+    "file": "_app/immutable/assets/cv-a10bbc99.pdf",
+    "src": "src/lib/assets/cv.pdf"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-51b5ff20.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/pro/+page.css": {
+    "file": "_app/immutable/assets/_page-08b5da60.css",
+    "src": "src/routes/pro/+page.css"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-95d8bc55.css",
+    "src": "src/routes/+page.css"
+  },
+  "Icon.css": {
+    "file": "_app/immutable/assets/Icon-49f27fa9.css",
+    "src": "Icon.css"
+  },
+  "ChipIcon.css": {
+    "file": "_app/immutable/assets/ChipIcon-5d3f82f5.css",
+    "src": "ChipIcon.css"
+  },
+  "MainTitle.css": {
+    "file": "_app/immutable/assets/MainTitle-89892bb1.css",
+    "src": "MainTitle.css"
+  },
+  "src/routes/projects/+page.css": {
+    "file": "_app/immutable/assets/_page-15f58729.css",
+    "src": "src/routes/projects/+page.css"
+  },
+  "src/routes/resume/+page.css": {
+    "file": "_app/immutable/assets/_page-c6b04c59.css",
+    "src": "src/routes/resume/+page.css"
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-0c5e2335.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+layout.svelte"
+    ]
+  },
+  "_Technologies-c84eb82e.js": {
+    "file": "_app/immutable/chunks/Technologies-c84eb82e.js",
+    "imports": [
+      "_Assets-f59ff9db.js"
+    ]
+  },
+  "_Assets-f59ff9db.js": {
+    "file": "_app/immutable/chunks/Assets-f59ff9db.js",
+    "assets": [
+      "_app/immutable/assets/js-48d02175.png",
+      "_app/immutable/assets/ts-a285671f.png",
+      "_app/immutable/assets/dart-ce728a8e.png",
+      "_app/immutable/assets/kotlin-53eb19d4.png",
+      "_app/immutable/assets/java-7b1e51de.png",
+      "_app/immutable/assets/python-e8035619.png",
+      "_app/immutable/assets/node-8852d2b9.png",
+      "_app/immutable/assets/deno-f025c306.png",
+      "_app/immutable/assets/vue-d22b0391.png",
+      "_app/immutable/assets/react-f2cadfd0.svg",
+      "_app/immutable/assets/svelte-13ed3f6c.png",
+      "_app/immutable/assets/angular-628a1332.png",
+      "_app/immutable/assets/flutter-e2cc2c89.svg",
+      "_app/immutable/assets/electron-31711ce1.png",
+      "_app/immutable/assets/recursive-d412fd5f.png",
+      "_app/immutable/assets/solid-123b04bc.svg",
+      "_app/immutable/assets/quasar-be59a798.svg",
+      "_app/immutable/assets/android-83b259c2.png",
+      "_app/immutable/assets/express-fd78a3cf.png",
+      "_app/immutable/assets/fastify-9904a2a7.svg",
+      "_app/immutable/assets/nest-48bd018d.svg",
+      "_app/immutable/assets/adonis-a1ee9ffd.png",
+      "_app/immutable/assets/mongodb-38222573.svg",
+      "_app/immutable/assets/redis-f1d469f7.svg",
+      "_app/immutable/assets/postgres-366931b7.png",
+      "_app/immutable/assets/firebase-dd7fbb93.png",
+      "_app/immutable/assets/html-ed8b74df.svg",
+      "_app/immutable/assets/css-8bb4d2b9.svg",
+      "_app/immutable/assets/sass-5ec55337.png",
+      "_app/immutable/assets/tailwind-29b2f046.svg",
+      "_app/immutable/assets/photoshop-4e8a5535.svg",
+      "_app/immutable/assets/after-effects-dcca04ac.svg",
+      "_app/immutable/assets/premiere-86a3c358.svg",
+      "_app/immutable/assets/illustrator-84132260.svg",
+      "_app/immutable/assets/card-baker-4b98a2cb.png",
+      "_app/immutable/assets/gradio-5bb386b2.png",
+      "_app/immutable/assets/hstech-ca0a4a72.jpg",
+      "_app/immutable/assets/no-img-bbc286ba.svg",
+      "_app/immutable/assets/cv-a10bbc99.pdf"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-8ba6c73b.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
+  "_MainTitle-98e82cd5.js": {
+    "file": "_app/immutable/chunks/MainTitle-98e82cd5.js",
+    "imports": [
+      "_index-73317ae8.js"
+    ],
+    "css": [
+      "_app/immutable/assets/MainTitle-89892bb1.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-19f1424c.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/projects/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-74d44f22.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/resume/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-b081cb0e.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  "_Icon-befe68dd.js": {
+    "file": "_app/immutable/chunks/Icon-befe68dd.js",
+    "imports": [
+      "_index-73317ae8.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Icon-49f27fa9.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-9aebad78.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/pro/+page.svelte"
+    ]
+  },
+  "_index-73317ae8.js": {
+    "file": "_app/immutable/chunks/index-73317ae8.js"
+  },
+  "_stores-3024cc4c.js": {
+    "file": "_app/immutable/chunks/stores-3024cc4c.js",
+    "imports": [
+      "_index-73317ae8.js",
+      "_singletons-c422ce39.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-9f246d6b.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-73317ae8.js",
+      "_Icon-befe68dd.js",
+      "_stores-3024cc4c.js",
+      "_singletons-c422ce39.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-51b5ff20.css"
+    ]
+  },
+  "_ChipIcon-8846e876.js": {
+    "file": "_app/immutable/chunks/ChipIcon-8846e876.js",
+    "imports": [
+      "_index-73317ae8.js"
+    ],
+    "css": [
+      "_app/immutable/assets/ChipIcon-5d3f82f5.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-e2426ff4.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-73317ae8.js",
+      "_Technologies-c84eb82e.js",
+      "_Icon-befe68dd.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-95d8bc55.css"
+    ]
+  },
+  "src/routes/pro/+page.svelte": {
+    "file": "_app/immutable/components/pages/pro/_page.svelte-6afe08cc.js",
+    "src": "src/routes/pro/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-73317ae8.js",
+      "_Assets-f59ff9db.js",
+      "_Technologies-c84eb82e.js",
+      "_ChipIcon-8846e876.js",
+      "_MainTitle-98e82cd5.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-08b5da60.css"
+    ]
+  },
+  "src/routes/resume/+page.svelte": {
+    "file": "_app/immutable/components/pages/resume/_page.svelte-7518d13f.js",
+    "src": "src/routes/resume/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-73317ae8.js",
+      "_Assets-f59ff9db.js",
+      "_MainTitle-98e82cd5.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-c6b04c59.css"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-49ecfe11.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-73317ae8.js",
+      "_singletons-c422ce39.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js",
+      ".svelte-kit/generated/nodes/3.js",
+      ".svelte-kit/generated/nodes/4.js",
+      ".svelte-kit/generated/nodes/5.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-39b64038.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-73317ae8.js",
+      "_stores-3024cc4c.js"
+    ]
+  },
+  "src/routes/projects/+page.svelte": {
+    "file": "_app/immutable/components/pages/projects/_page.svelte-a367e303.js",
+    "src": "src/routes/projects/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-73317ae8.js",
+      "_MainTitle-98e82cd5.js",
+      "_ChipIcon-8846e876.js",
+      "_Icon-befe68dd.js",
+      "_Assets-f59ff9db.js",
+      "_Technologies-c84eb82e.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-15f58729.css"
+    ]
+  },
+  "_singletons-c422ce39.js": {
+    "file": "_app/immutable/chunks/singletons-c422ce39.js",
+    "imports": [
+      "_index-73317ae8.js"
+    ]
+  }
+}
