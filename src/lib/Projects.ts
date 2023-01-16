@@ -22,7 +22,7 @@ export interface Project {
 
 export const Projects: Record<string, Project> = {
 	Werewolves: {
-		color: '#cf2026',
+		color: '#fbb03b',
 		name: 'Werewolves',
 		logo: Assets.Werewolves1,
 		description:

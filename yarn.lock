@@ -190,10 +190,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@riadh-adrani/utility-js@^0.29.1":
-  version "0.29.1"
-  resolved "https://registry.yarnpkg.com/@riadh-adrani/utility-js/-/utility-js-0.29.1.tgz#4e121aa3dca4597fd33518e96a6b1f258e8097d2"
-  integrity sha512-F2zzyuTLYW0qoD46tsALguP24f8BfQO59CznWL7x6LngymNKSYJpFqRxSxBQ9crpNJbxDJb063GP9tE15rL7dQ==
+"@riadh-adrani/utility-js@^0.29.2":
+  version "0.29.2"
+  resolved "https://registry.yarnpkg.com/@riadh-adrani/utility-js/-/utility-js-0.29.2.tgz#f24e8dffc62529f69aaf702971d3d2700efcb2b8"
+  integrity sha512-kEy4/A3FwHSzVL4nRtKH9PeubTqNvjzD1hqd87Yg0V3ORKJDUkyqKYV60sgHH5YL7z4bPbDtGg/7wu57yOYPEQ==
 
 "@sveltejs/adapter-auto@^1.0.0":
   version "1.0.0"
