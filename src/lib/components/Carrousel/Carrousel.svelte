@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { TechnologiesList } from '$lib/Technologies';
+	import { shuffle } from '@riadh-adrani/utility-js';
 	import { onMount } from 'svelte';
 	import Icon from '../Icon/Icon.svelte';
 	import { Icons } from '../Icon/Icons';
 
-	const items = TechnologiesList;
+	const items = [...shuffle(TechnologiesList)];
 	const delay = 2000;
 
 	let element: HTMLElement;

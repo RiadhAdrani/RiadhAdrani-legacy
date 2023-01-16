@@ -49,7 +49,10 @@ import HsTech from '$lib/assets/logos/hstech.jpg';
 import Unknown from '$lib/assets/logos/no-img.svg';
 import TriWeb from '$lib/assets/logos/triweb.jpg';
 
+import CV from '$lib/assets/cv.pdf';
+
 export default {
+	CV,
 	TypeScript,
 	VueJs,
 	ReactJs,

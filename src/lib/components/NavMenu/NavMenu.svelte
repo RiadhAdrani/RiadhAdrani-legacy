@@ -19,7 +19,6 @@
 		{ title: 'Home', to: '/', icon: Icons.Home },
 		{ title: 'Projects', to: '/projects', icon: Icons.Projects },
 		{ title: 'Professional Career', to: '/pro', icon: Icons.Job },
-		{ title: 'Academic Background', to: '/academic', icon: Icons.Academic },
 		{ title: 'Resume', to: '/resume', icon: Icons.Resume }
 	];
 </script>

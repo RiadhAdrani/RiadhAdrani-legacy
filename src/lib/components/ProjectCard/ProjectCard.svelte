@@ -39,7 +39,9 @@
 	<p class="project-card-description">{project.description}</p>
 	<div class="project-card-bottom">
 		<Chip label={from} />
-		<Chip label={to} />
+		{#if from !== to}
+			<Chip label={to} />
+		{/if}
 	</div>
 	<CardDivider />
 	<div class="project-card-technologies">
