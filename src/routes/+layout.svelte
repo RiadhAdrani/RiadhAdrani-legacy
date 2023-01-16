@@ -1,5 +1,7 @@
 <script lang="ts">
 	import NavMenu from '$lib/components/NavMenu/NavMenu.svelte';
+
+	export const prerender = true;
 </script>
 
 <NavMenu />

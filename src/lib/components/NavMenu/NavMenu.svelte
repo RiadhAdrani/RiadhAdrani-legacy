@@ -1,19 +1,17 @@
 <script lang="ts">
-	import { StyleType, styleType } from '$lib/Store';
 	import type { NavMenuItem } from '$lib/types';
 	import '$lib/styles/index.scss';
 	import Icon from '../Icon/Icon.svelte';
 	import { Icons } from '../Icon/Icons';
 	import { page } from '$app/stores';
 
-	let currentStyle: StyleType;
+	import { base } from '$app/paths';
+
 	let currentRoute = '/';
 
 	$: {
 		currentRoute = $page.url.pathname;
 	}
-
-	styleType.subscribe((value) => (currentStyle = value));
 
 	const items: Array<NavMenuItem> = [
 		{ title: 'Home', to: '/', icon: Icons.Home },
@@ -26,7 +24,11 @@
 <div class="nav-menu">
 	<nav class="container">
 		{#each items as item}
-			<a href={item.to} class="nav-menu-item" class:nav-menu-item-active={currentRoute === item.to}>
+			<a
+				href={`${base}${item.to}`}
+				class="nav-menu-item"
+				class:nav-menu-item-active={currentRoute === item.to}
+			>
 				<Icon icon={item.icon} size="20px" />
 				<span class="nav-menu-item-label">{item.title}</span>
 			</a>

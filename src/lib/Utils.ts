@@ -32,3 +32,5 @@ export const getMonthName = (index: number): string => {
 
 	return monthNames[index];
 };
+
+export const useImage = (url: string, base: string): string => `${base}${url}`;
