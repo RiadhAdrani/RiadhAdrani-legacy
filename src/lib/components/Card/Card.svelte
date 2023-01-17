@@ -7,14 +7,45 @@
 	export let color = '#ffffff00';
 	export let margin = '0px';
 
+	export let tiltDegree = 5;
+
+	const onHover = (ev: MouseEvent) => {
+		const target = ev.currentTarget as HTMLElement;
+		const rect = target.getBoundingClientRect();
+
+		const x = ev.clientX - rect.left;
+		const y = ev.clientY - rect.top;
+
+		el.style.setProperty('--drop-x', `${x}px`);
+		el.style.setProperty('--drop-y', `${y}px`);
+
+		const width = el.offsetWidth;
+		const height = el.offsetHeight;
+
+		const cX = rect.x + width / 2;
+		const cY = rect.y + height / 2;
+
+		console.log(cY);
+
+		const mX = ev.clientX - cX;
+		const mY = ev.clientY - cY;
+
+		const rY = ((tiltDegree * mX) / (width / 2)).toFixed(2);
+		const rX = ((-1 * (tiltDegree * mY)) / (height / 2)).toFixed(2);
+
+		el.style.setProperty('--rot-x', `${rX}deg`);
+		el.style.setProperty('--rot-y', `${rY}deg`);
+	};
+
 	onMount(() => {
 		el.style.setProperty('--border-color', changeColorOpacity(color, 0.5));
+		el.style.setProperty('--drop-color', changeColorOpacity(color, 0.15));
 		el.style.setProperty('--bg-color', changeColorOpacity(color, 0.075));
 		el.style.setProperty('margin', margin);
 	});
 </script>
 
-<div bind:this={el} class="card">
+<div bind:this={el} on:mousemove={onHover} class="card">
 	<slot />
 </div>
 
@@ -22,17 +53,31 @@
 	.card {
 		--border-color: transparent;
 		--bg-color: transparent;
+		--drop-color: transparent;
+
+		--drop-x: 0;
+		--drop-y: 0;
+
+		--rot-x: 0;
+		--rot-y: 0;
 
 		display: inline-flex;
 		flex-direction: column;
 		border: 1px solid var(--accent-c);
 		padding: 25px;
 		border-radius: 15px;
-		transition-duration: 150ms;
+		transition-duration: 200ms;
+		position: relative;
 
 		&:hover {
+			transform: perspective(1000px) rotateX(var(--rot-x)) rotateY(var(--rot-y)) scale(1.01);
+			// background-color: var(--bg-color);
+			background-image: radial-gradient(
+				circle at var(--drop-x) var(--drop-y),
+				var(--drop-color),
+				transparent
+			);
 			border-color: var(--border-color);
-			background-color: var(--bg-color);
 		}
 	}
 </style>

@@ -40,7 +40,7 @@
 				background-color: var(--variant-c);
 				padding: 5px 10px;
 				left: 10px;
-				top: calc(100% + 5px);
+				top: calc(100% + 0px);
 				border: 1px solid var(--secondary-c);
 				border-radius: 15px;
 			}
