@@ -5,10 +5,13 @@
 	import ProjectCard from '$lib/components/ProjectCard/ProjectCard.svelte';
 	import { ProjectsList } from '$lib/Projects';
 	import { TechnologiesList, type Technology } from '$lib/Technologies';
+	import { useTitle } from '$lib/Utils';
 
 	interface TechnologyFilter extends Technology {
 		isSelected?: boolean;
 	}
+
+	const title = useTitle('Projects');
 
 	let filters: Array<TechnologyFilter> = TechnologiesList;
 	let search = '';
@@ -45,6 +48,9 @@
 	}
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <div class="projects">
 	<MainTitle>Projects</MainTitle>
 	<div class="projects-search">
@@ -64,6 +70,9 @@
 
 <style lang="scss">
 	.projects {
+		display: flex;
+		flex-direction: column;
+
 		&-search,
 		&-filters,
 		&-list {
@@ -73,12 +82,21 @@
 		&-search {
 			display: flex;
 			justify-content: stretch;
+			padding: 0px 10px;
 		}
 
 		&-list {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
 			gap: 20px;
+			padding: 0px 10px;
+
+			@media (max-width: 1350px) {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			@media (max-width: 850px) {
+				grid-template-columns: repeat(1, 1fr);
+			}
 		}
 	}
 </style>

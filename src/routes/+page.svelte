@@ -3,6 +3,9 @@
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import { Icons } from '$lib/components/Icon/Icons';
 	import type { SocialLink } from '$lib/types';
+	import { useTitle } from '$lib/Utils';
+
+	const title = useTitle('Riadh Adrani');
 
 	const links: Array<SocialLink> = [
 		{
@@ -23,6 +26,9 @@
 	];
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <div class="home">
 	<div class="home-section">
 		<h1 class="home-title">Riadh ADRANI,</h1>
@@ -45,7 +51,6 @@
 		flex-direction: row;
 		flex: 1;
 		align-self: stretch;
-		justify-content: space-between;
 		align-items: center;
 
 		&-title {
@@ -72,6 +77,19 @@
 			&-item {
 				margin-right: 10px;
 				text-decoration: none;
+			}
+		}
+
+		@media (max-width: 875px) {
+			& {
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			&-section {
+				flex: 0;
+				align-items: center;
+				text-align: center;
 			}
 		}
 	}

@@ -2,8 +2,14 @@
 	import Assets from '$lib/Assets';
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
+	import { useTitle } from '$lib/Utils';
+
+	const title = useTitle('Resumé');
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <div />
 <MainTitle>Resume</MainTitle>
 <div class="resume">

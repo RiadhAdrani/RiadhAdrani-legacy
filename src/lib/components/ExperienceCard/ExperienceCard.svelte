@@ -52,6 +52,14 @@
 			margin-left: 20px;
 		}
 
+		@media (max-width: 800px) {
+			flex-direction: column;
+
+			&-data {
+				margin-left: 0px;
+			}
+		}
+
 		&-title {
 			margin: 0;
 			display: flex;
@@ -60,17 +68,29 @@
 			&-divider {
 				width: 10px;
 			}
+
+			@media (max-width: 800px) {
+				& {
+					flex-direction: column;
+					align-items: flex-start;
+					margin: 10px 0px;
+
+					&-divider {
+						display: none;
+					}
+				}
+			}
 		}
 
 		&-company-name {
 			margin-bottom: 5px;
-			font-family: 'Fira Sans';
+			font-family: var(--title-f);
 			font-size: 1.15em;
 		}
 
 		&-period,
 		&-location {
-			color: #a0a0a0;
+			color: var(--accent-text-c);
 			font-size: 0.9em;
 			margin-bottom: 5px;
 		}
@@ -85,6 +105,7 @@
 
 		&-skills {
 			display: flex;
+			flex-wrap: wrap;
 		}
 	}
 </style>

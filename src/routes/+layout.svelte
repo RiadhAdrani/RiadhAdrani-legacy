@@ -8,24 +8,67 @@
 <div class="content container"><slot /></div>
 
 <style lang="scss">
-	:global(.container) {
-		max-width: 1200px;
-		min-width: 1200px;
-		margin: 0px auto;
+	:global(:root) {
+		color-scheme: dark;
+
+		--primary-c: #000;
+		--secondary-c: #1e1e1e;
+		--accent-c: #1e1e1e;
+
+		--primary-text-c: #fff;
+		--secondary-text-c: #f0f0f0;
+		--accent-text-c: #a0a0a0;
+
+		--text-f: 'Ubuntu';
+		--title-f: 'Fira Sans';
 	}
 
-	:global(.content) {
+	.content {
 		display: flex;
 		flex-direction: column;
 		flex: 1;
 		padding: 40px 0px;
 	}
 
+	.container {
+		max-width: 1200px;
+		min-width: 1200px;
+		margin: 0px auto;
+
+		@media (max-width: 1350px) {
+			& {
+				max-width: 1000px;
+				min-width: 1000px;
+			}
+		}
+
+		@media (max-width: 1075px) {
+			& {
+				max-width: initial;
+				min-width: initial;
+			}
+		}
+	}
+
+	@media (max-width: 950px) {
+		.content {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+
+	@media (max-width: 750px) {
+		.content {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
 	:global(body) {
 		margin: 0px;
-		background-color: #000;
-		color: #fff;
-		font-family: 'Ubuntu';
+		background-color: var(--primary-c);
+		color: var(--primary-text-c);
+		font-family: var(--text-f);
 		display: flex;
 		flex-direction: column;
 

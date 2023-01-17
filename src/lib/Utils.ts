@@ -34,3 +34,5 @@ export const getMonthName = (index: number): string => {
 };
 
 export const useImage = (url: string, base: string): string => `${base}${url}`;
+
+export const useTitle = (title: string) => `${title} | Riadh Adrani`;

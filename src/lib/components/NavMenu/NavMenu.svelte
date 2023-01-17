@@ -15,8 +15,8 @@
 
 	const items: Array<NavMenuItem> = [
 		{ title: 'Home', to: '/', icon: Icons.Home },
-		{ title: 'Projects', to: '/projects', icon: Icons.Projects },
-		{ title: 'Professional Career', to: '/pro', icon: Icons.Job },
+		{ title: 'Personal Projects', to: '/projects', icon: Icons.Projects },
+		{ title: 'Professional Experience', to: '/experience', icon: Icons.Job },
 		{ title: 'Resume', to: '/resume', icon: Icons.Resume }
 	];
 </script>
@@ -68,6 +68,12 @@
 
 			&-label {
 				margin-left: 10px;
+
+				@media (max-width: 950px) {
+					& {
+						display: none;
+					}
+				}
 			}
 
 			&:hover {

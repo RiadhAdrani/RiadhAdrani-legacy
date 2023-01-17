@@ -23,7 +23,7 @@
 		--border-color: transparent;
 		--bg-color: transparent;
 
-		display: flex;
+		display: inline-flex;
 		flex-direction: column;
 		border: 1px solid #2e2e2e;
 		padding: 25px;

@@ -137,7 +137,7 @@
 			padding: 5px;
 			margin: 0px 10px;
 			cursor: pointer;
-			border: 1px solid #1e1e1e;
+			border: 1px solid var(--border-color-1);
 			border-radius: 50%;
 		}
 	}
