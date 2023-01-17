@@ -15,7 +15,7 @@
 
 	let filters: Array<TechnologyFilter> = TechnologiesList;
 	let search = '';
-	let displayed = [...ProjectsList];
+	let displayed = ProjectsList;
 
 	const isSelected = (tech: Technology) => {
 		return filters.some((item) => item.name === tech.name && item.isSelected);

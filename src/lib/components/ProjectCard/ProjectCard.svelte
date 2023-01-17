@@ -10,13 +10,10 @@
 	import CardLogo from '../Card/CardLogo.svelte';
 
 	export let project: Project;
-	const months = countMonths(project.period.from, project.period.to);
-	const period = `${months} month${months > 1 ? 's' : ''}`;
-
-	const from = `${getMonthName(
-		project.period.from.getMonth()
-	)} ${project.period.from.getFullYear()}`;
-	const to = project.period.to
+	$: months = countMonths(project.period.from, project.period.to);
+	$: period = `${months} month${months > 1 ? 's' : ''}`;
+	$: from = `${getMonthName(project.period.from.getMonth())} ${project.period.from.getFullYear()}`;
+	$: to = project.period.to
 		? `${getMonthName(project.period.to.getMonth())} ${project.period.to.getFullYear()}`
 		: 'now';
 </script>
