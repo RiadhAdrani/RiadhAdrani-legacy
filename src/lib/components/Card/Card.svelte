@@ -25,7 +25,7 @@
 
 		display: inline-flex;
 		flex-direction: column;
-		border: 1px solid #2e2e2e;
+		border: 1px solid var(--accent-c);
 		padding: 25px;
 		border-radius: 15px;
 		transition-duration: 150ms;

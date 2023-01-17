@@ -73,7 +73,7 @@
 		&-mid {
 			display: flex;
 			justify-content: space-between;
-			color: #a0a0a0;
+			color: var(--accent-text-c);
 			font-size: 0.9em;
 			font-style: italic;
 			font-weight: 400;
@@ -93,7 +93,7 @@
 		&-description {
 			line-height: 1.4em;
 			flex: 1;
-			color: #dfdfdf;
+			color: var(--accent-text-c);
 		}
 	}
 </style>

@@ -16,24 +16,24 @@
 		position: relative;
 		align-items: center;
 		margin: 0 2.5px;
-		border: 1px solid #1e1e1e;
+		border: 1px solid var(--secondary-c);
 		padding: 5px;
 		border-radius: 10px;
 		color: inherit;
 
 		&:hover {
-			border-color: #4e4e4e;
+			border-color: var(--extra-c);
 
 			&:after {
 				content: attr(data-help);
 				display: inline-block;
 				position: absolute;
 				width: max-content;
-				background-color: #0e0e0e;
+				background-color: var(--variant-c);
 				padding: 5px 10px;
 				left: 10px;
 				top: calc(100% + 5px);
-				border: 1px solid #1e1e1e;
+				border: 1px solid var(--secondary-c);
 				border-radius: 15px;
 			}
 		}

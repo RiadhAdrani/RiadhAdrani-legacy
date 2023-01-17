@@ -137,8 +137,12 @@
 			padding: 5px;
 			margin: 0px 10px;
 			cursor: pointer;
-			border: 1px solid var(--border-color-1);
+			border: 1px solid var(--accent-c);
 			border-radius: 50%;
+
+			&:hover {
+				border-color: var(--extra-c);
+			}
 		}
 	}
 </style>

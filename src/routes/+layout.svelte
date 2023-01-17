@@ -12,12 +12,15 @@
 		color-scheme: dark;
 
 		--primary-c: #000;
+		--variant-c: #0e0e0e;
 		--secondary-c: #1e1e1e;
-		--accent-c: #1e1e1e;
+		--accent-c: #2e2e2e;
+		--extra-c: #4e4e4e;
 
 		--primary-text-c: #fff;
 		--secondary-text-c: #f0f0f0;
 		--accent-text-c: #a0a0a0;
+		--extra-text-c: #707070;
 
 		--text-f: 'Ubuntu';
 		--title-f: 'Fira Sans';

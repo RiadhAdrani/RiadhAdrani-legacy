@@ -54,7 +54,7 @@
 		align-items: center;
 
 		&-title {
-			font-family: 'Fira Sans';
+			font-family: var(--title-f);
 			font-size: 4em;
 			font-weight: 900;
 			letter-spacing: 2px;

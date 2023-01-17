@@ -50,8 +50,8 @@
 		top: 0px;
 		z-index: 10;
 		padding: 0px 10px;
-		border-bottom: 1px solid #1e1e1e;
-		background-color: black;
+		border-bottom: 1px solid var(--secondary-c);
+		background-color: var(--primary-c);
 
 		&-item {
 			text-decoration: none;
@@ -63,7 +63,7 @@
 			border-bottom: 3px solid transparent;
 
 			&-active {
-				border-bottom-color: #4e4e4e;
+				border-bottom-color: var(--extra-c);
 			}
 
 			&-label {
@@ -77,7 +77,7 @@
 			}
 
 			&:hover {
-				background-color: #151515;
+				background-color: var(--secondary-c);
 			}
 		}
 	}

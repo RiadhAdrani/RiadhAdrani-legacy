@@ -6,7 +6,7 @@
 
 <style lang="scss">
 	.card-title {
-		font-family: 'Fira Sans';
+		font-family: var(--title-f);
 		font-size: 1.35em;
 	}
 </style>
