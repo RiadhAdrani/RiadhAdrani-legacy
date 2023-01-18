@@ -6,8 +6,19 @@
 
 	export let color = '#ffffff00';
 	export let margin = '0px';
-
 	export let tiltDegree = 5;
+
+	$: borderColor = changeColorOpacity(color, 0.5);
+	$: dropColor = changeColorOpacity(color, 0.15);
+	$: bgColor = changeColorOpacity(color, 0.01);
+
+	$: {
+		if (el) {
+			el.style.setProperty('--border-color', borderColor);
+			el.style.setProperty('--drop-color', dropColor);
+			el.style.setProperty('--bg-color', bgColor);
+		}
+	}
 
 	const onHover = (ev: MouseEvent) => {
 		const target = ev.currentTarget as HTMLElement;
@@ -38,9 +49,6 @@
 	};
 
 	onMount(() => {
-		el.style.setProperty('--border-color', changeColorOpacity(color, 0.5));
-		el.style.setProperty('--drop-color', changeColorOpacity(color, 0.15));
-		el.style.setProperty('--bg-color', changeColorOpacity(color, 0.075));
 		el.style.setProperty('margin', margin);
 	});
 </script>
@@ -71,7 +79,7 @@
 
 		&:hover {
 			transform: perspective(1000px) rotateX(var(--rot-x)) rotateY(var(--rot-y)) scale(1.01);
-			// background-color: var(--bg-color);
+			background-color: var(--bg-color);
 			background-image: radial-gradient(
 				circle at var(--drop-x) var(--drop-y),
 				var(--drop-color),
