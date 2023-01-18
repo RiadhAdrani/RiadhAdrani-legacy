@@ -36,8 +36,6 @@
 		const cX = rect.x + width / 2;
 		const cY = rect.y + height / 2;
 
-		console.log(cY);
-
 		const mX = ev.clientX - cX;
 		const mY = ev.clientY - cY;
 
