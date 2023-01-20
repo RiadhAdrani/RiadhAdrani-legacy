@@ -32,6 +32,21 @@ export const Projects: Record<string, Project> = {
 		technologies: [Technologies.Dart, Technologies.Flutter],
 		type: 'Mobile App'
 	},
+	Portfolio: {
+		color: '#ff3e00',
+		name: 'Portfolio',
+		logo: Assets.Unknown,
+		description: 'My personal website portfolio.',
+		period: { from: new Date(2021, 3, 1) },
+		links: [{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/RiadhAdrani' }],
+		technologies: [
+			Technologies.TypeScript,
+			Technologies.NodeJs,
+			Technologies.Svelte,
+			Technologies.Sass
+		],
+		type: 'Website'
+	},
 	Recursive: {
 		color: '#cf2026',
 		name: 'Recursive',
@@ -64,7 +79,7 @@ export const Projects: Record<string, Project> = {
 		name: 'Solid GitHub',
 		logo: Assets.SolidJs,
 		description:
-			'Web app that retrieves repositories from GitHub and displaying them with the ability to save them which will be persisted in the local storage.',
+			'Web app that retrieves repositories from GitHub and displaying them with the ability to be saved and persisted in the local storage.',
 		period: { from: new Date(2022, 10, 1), to: new Date(2022, 10, 10) },
 		links: [{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/solid-github' }],
 		technologies: [Technologies.TypeScript, Technologies.NodeJs, Technologies.SolidJs],

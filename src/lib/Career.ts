@@ -70,7 +70,9 @@ export const JobExperiences: Record<string, Experience> = {
 			Technologies.ReactJs,
 			Technologies.Android,
 			Technologies.Kotlin,
-			Technologies.Firebase
+			Technologies.Firebase,
+			Technologies.Xamarin,
+			Technologies.Csharp
 		]
 	},
 	TriWeb: {

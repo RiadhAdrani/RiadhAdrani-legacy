@@ -10,7 +10,9 @@
 	let currentRoute = '/';
 
 	$: {
-		currentRoute = $page.url.pathname;
+		if ($page) {
+			currentRoute = $page.url.pathname;
+		}
 	}
 
 	const items: Array<NavMenuItem> = [
