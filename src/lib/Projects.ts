@@ -21,6 +21,20 @@ export interface Project {
 }
 
 export const Projects: Record<string, Project> = {
+	DomControl: {
+		color: '#5cad47',
+		name: 'Dom Control',
+		logo: Assets.NodeJs,
+		description: 'Create and manipulate DOM elements.',
+		period: { from: new Date(2022, 9, 28) },
+		links: [
+			{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/dom-control-js' },
+			{ label: 'NPM', to: 'https://www.npmjs.com/package/@riadh-adrani/dom-control-js' },
+			{ label: 'Docs', to: 'https://riadhadrani.github.io/dom-control-js/' }
+		],
+		technologies: [Technologies.TypeScript, Technologies.NodeJs],
+		type: 'JavaScript library'
+	},
 	Werewolves: {
 		color: '#fbb03b',
 		name: 'Werewolves',
